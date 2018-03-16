@@ -1,0 +1,5 @@
+E:\Via1\Projetos\LFC\LFC.SGD.Interfaces\bin\Debug\LFC.SGD.Interfaces.dll
+E:\Via1\Projetos\LFC\LFC.SGD.Interfaces\bin\Debug\LFC.SGD.Interfaces.pdb
+E:\Via1\Projetos\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.SGD.Interfaces.csprojResolveAssemblyReference.cache
+E:\Via1\Projetos\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.SGD.Interfaces.dll
+E:\Via1\Projetos\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.SGD.Interfaces.pdb

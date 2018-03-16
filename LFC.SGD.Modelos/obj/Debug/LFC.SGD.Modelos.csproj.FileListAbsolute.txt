@@ -1,0 +1,5 @@
+E:\Via1\Projetos\LFC\LFC.SGD.Modelos\obj\Debug\LFC.SGD.Modelos.csprojResolveAssemblyReference.cache
+E:\Via1\Projetos\LFC\LFC.SGD.Modelos\bin\Debug\LFC.SGD.Modelos.dll
+E:\Via1\Projetos\LFC\LFC.SGD.Modelos\bin\Debug\LFC.SGD.Modelos.pdb
+E:\Via1\Projetos\LFC\LFC.SGD.Modelos\obj\Debug\LFC.SGD.Modelos.dll
+E:\Via1\Projetos\LFC\LFC.SGD.Modelos\obj\Debug\LFC.SGD.Modelos.pdb

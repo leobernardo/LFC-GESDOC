@@ -1,0 +1,1099 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB163C38-75DF-4F3B-AB55-969588E98E32}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LFC.GesDoc.Site</RootNamespace>
+    <AssemblyName>LFC.GesDoc.Site</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <ExcludeGeneratedDebugSymbol>false</ExcludeGeneratedDebugSymbol>
+    <ExcludeApp_Data>false</ExcludeApp_Data>
+    <PrecompileBeforePublish>false</PrecompileBeforePublish>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="gestor\bootstrap\css\bootstrap.css" />
+    <Content Include="gestor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="gestor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="gestor\bootstrap\js\bootstrap.js" />
+    <Content Include="gestor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="gestor\bootstrap\js\npm.js" />
+    <Content Include="gestor\Parcerias\AlterarParceria.aspx" />
+    <Content Include="gestor\Parcerias\AlterarRepasseParceria.aspx" />
+    <Content Include="gestor\Parcerias\CadastrarParceria.aspx" />
+    <Content Include="gestor\Parcerias\CadastrarRepasseParceria.aspx" />
+    <Content Include="gestor\Parcerias\ListarParcerias.aspx" />
+    <Content Include="gestor\Parcerias\RepassesParceria.aspx" />
+    <Content Include="gestor\dist\css\AdminLTE.css" />
+    <Content Include="gestor\dist\css\AdminLTE.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-black-light.css" />
+    <Content Include="gestor\dist\css\skins\skin-black-light.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-black.css" />
+    <Content Include="gestor\dist\css\skins\skin-black.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-blue-light.css" />
+    <Content Include="gestor\dist\css\skins\skin-blue-light.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-blue.css" />
+    <Content Include="gestor\dist\css\skins\skin-blue.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-green-light.css" />
+    <Content Include="gestor\dist\css\skins\skin-green-light.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-green.css" />
+    <Content Include="gestor\dist\css\skins\skin-green.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-purple-light.css" />
+    <Content Include="gestor\dist\css\skins\skin-purple-light.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-purple.css" />
+    <Content Include="gestor\dist\css\skins\skin-purple.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-red-light.css" />
+    <Content Include="gestor\dist\css\skins\skin-red-light.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-red.css" />
+    <Content Include="gestor\dist\css\skins\skin-red.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-yellow-light.css" />
+    <Content Include="gestor\dist\css\skins\skin-yellow-light.min.css" />
+    <Content Include="gestor\dist\css\skins\skin-yellow.css" />
+    <Content Include="gestor\dist\css\skins\skin-yellow.min.css" />
+    <Content Include="gestor\dist\css\skins\_all-skins.css" />
+    <Content Include="gestor\dist\css\skins\_all-skins.min.css" />
+    <Content Include="gestor\dist\img\avatar.png" />
+    <Content Include="gestor\dist\img\avatar04.png" />
+    <Content Include="gestor\dist\img\avatar2.png" />
+    <Content Include="gestor\dist\img\avatar3.png" />
+    <Content Include="gestor\dist\img\avatar5.png" />
+    <Content Include="gestor\dist\img\boxed-bg.jpg" />
+    <Content Include="gestor\dist\img\boxed-bg.png" />
+    <Content Include="gestor\dist\img\credit\american-express.png" />
+    <Content Include="gestor\dist\img\credit\cirrus.png" />
+    <Content Include="gestor\dist\img\credit\mastercard.png" />
+    <Content Include="gestor\dist\img\credit\mestro.png" />
+    <Content Include="gestor\dist\img\credit\paypal.png" />
+    <Content Include="gestor\dist\img\credit\paypal2.png" />
+    <Content Include="gestor\dist\img\credit\visa.png" />
+    <Content Include="gestor\dist\img\default-50x50.gif" />
+    <Content Include="gestor\dist\img\fancybox\blank.gif" />
+    <Content Include="gestor\dist\img\fancybox\fancybox_loading%402x.gif" />
+    <Content Include="gestor\dist\img\fancybox\fancybox_loading.gif" />
+    <Content Include="gestor\dist\img\fancybox\fancybox_overlay.png" />
+    <Content Include="gestor\dist\img\fancybox\fancybox_sprite%402x.png" />
+    <Content Include="gestor\dist\img\fancybox\fancybox_sprite.png" />
+    <Content Include="gestor\dist\img\icons.png" />
+    <Content Include="gestor\dist\img\photo1.png" />
+    <Content Include="gestor\dist\img\photo2.png" />
+    <Content Include="gestor\dist\img\photo3.jpg" />
+    <Content Include="gestor\dist\img\photo4.jpg" />
+    <Content Include="gestor\dist\img\user.png" />
+    <Content Include="gestor\dist\img\user1-128x128.jpg" />
+    <Content Include="gestor\dist\img\user2-160x160.jpg" />
+    <Content Include="gestor\dist\img\user3-128x128.jpg" />
+    <Content Include="gestor\dist\img\user4-128x128.jpg" />
+    <Content Include="gestor\dist\img\user5-128x128.jpg" />
+    <Content Include="gestor\dist\img\user6-128x128.jpg" />
+    <Content Include="gestor\dist\img\user7-128x128.jpg" />
+    <Content Include="gestor\dist\img\user8-128x128.jpg" />
+    <Content Include="gestor\dist\js\app.js" />
+    <Content Include="gestor\dist\js\app.min.js" />
+    <Content Include="gestor\dist\js\demo.js" />
+    <Content Include="gestor\dist\js\pages\dashboard.js" />
+    <Content Include="gestor\dist\js\pages\dashboard2.js" />
+    <Content Include="gestor\Documentos\BuscarDocumentos.aspx" />
+    <Content Include="gestor\Documentos\HistoricoDocumento.aspx" />
+    <Content Include="gestor\Documentos\ListarDocumentos.aspx" />
+    <Content Include="gestor\Home\Default.aspx" />
+    <Content Include="gestor\Login.aspx" />
+    <Content Include="gestor\plugins\bootbox\bootbox.min.js" />
+    <Content Include="gestor\plugins\datatables\dataTables.bootstrap.css" />
+    <Content Include="gestor\plugins\datatables\dataTables.bootstrap.js" />
+    <Content Include="gestor\plugins\datatables\dataTables.bootstrap.min.js" />
+    <Content Include="gestor\plugins\datatables\images\sort_asc.png" />
+    <Content Include="gestor\plugins\datatables\images\sort_asc_disabled.png" />
+    <Content Include="gestor\plugins\datatables\images\sort_both.png" />
+    <Content Include="gestor\plugins\datatables\images\sort_desc.png" />
+    <Content Include="gestor\plugins\datatables\images\sort_desc_disabled.png" />
+    <Content Include="gestor\plugins\datatables\jquery.dataTables.css" />
+    <Content Include="gestor\plugins\datatables\jquery.dataTables.js" />
+    <Content Include="gestor\plugins\datatables\jquery.dataTables.min.css" />
+    <Content Include="gestor\plugins\datatables\jquery.dataTables.min.js" />
+    <Content Include="gestor\plugins\datatables\jquery.dataTables_themeroller.css" />
+    <Content Include="gestor\plugins\datepicker\bootstrap-datepicker.js" />
+    <Content Include="gestor\plugins\datepicker\datepicker3.css" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.ar.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.az.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.bg.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.ca.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.cs.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.cy.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.da.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.de.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.el.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.es.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.et.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.fa.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.fi.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.fr.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.gl.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.he.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.hr.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.hu.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.id.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.is.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.it.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.ja.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.ka.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.kk.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.kr.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.lt.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.lv.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.mk.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.ms.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.nb.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.nl-BE.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.nl.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.no.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.pl.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.pt-BR.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.pt.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.ro.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.rs-latin.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.rs.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.ru.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.sk.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.sl.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.sq.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.sv.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.sw.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.th.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.tr.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.ua.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.vi.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.zh-CN.js" />
+    <Content Include="gestor\plugins\datepicker\locales\bootstrap-datepicker.zh-TW.js" />
+    <Content Include="gestor\plugins\fancybox\jquery.fancybox.css" />
+    <Content Include="gestor\plugins\fancybox\jquery.fancybox.js" />
+    <Content Include="gestor\plugins\fancybox\jquery.fancybox.pack.js" />
+    <Content Include="gestor\plugins\fullcalendar\fullcalendar.css" />
+    <Content Include="gestor\plugins\fullcalendar\fullcalendar.js" />
+    <Content Include="gestor\plugins\fullcalendar\fullcalendar.min.css" />
+    <Content Include="gestor\plugins\fullcalendar\fullcalendar.min.js" />
+    <Content Include="gestor\plugins\fullcalendar\fullcalendar.print.css" />
+    <Content Include="gestor\plugins\input-mask\jquery.inputmask.date.extensions.js" />
+    <Content Include="gestor\plugins\input-mask\jquery.inputmask.extensions.js" />
+    <Content Include="gestor\plugins\input-mask\jquery.inputmask.js" />
+    <Content Include="gestor\plugins\input-mask\jquery.inputmask.numeric.extensions.js" />
+    <Content Include="gestor\plugins\input-mask\jquery.inputmask.phone.extensions.js" />
+    <Content Include="gestor\plugins\input-mask\jquery.inputmask.regex.extensions.js" />
+    <Content Include="gestor\plugins\input-mask\phone-codes\readme.txt" />
+    <Content Include="gestor\plugins\jQueryUI\jquery-ui.js" />
+    <Content Include="gestor\plugins\jQueryUI\jquery-ui.min.js" />
+    <Content Include="gestor\plugins\jQuery\jQuery-2.1.4.min.js" />
+    <Content Include="gestor\plugins\priceformat\jquery.price_format.2.0.js" />
+    <Content Include="gestor\plugins\priceformat\jquery.price_format.2.0.min.js" />
+    <Content Include="gestor\Processos\AlterarProcesso.aspx" />
+    <Content Include="gestor\Processos\CadastrarProcesso.aspx" />
+    <Content Include="gestor\Processos\ListarProcessos.aspx" />
+    <Content Include="gestor\ServerSideProcessing\Documentos.aspx" />
+    <Content Include="gestor\TiposDocumentos\AlterarTipoDocumento.aspx" />
+    <Content Include="gestor\TiposDocumentos\CadastrarTipoDocumento.aspx" />
+    <Content Include="gestor\TiposDocumentos\ListarTiposDocumentos.aspx" />
+    <Content Include="gestor\Unidades\AlterarUnidade.aspx" />
+    <Content Include="gestor\Unidades\CadastrarUnidade.aspx" />
+    <Content Include="gestor\Unidades\ListarUnidades.aspx" />
+    <Content Include="gestor\UserControls\ucBoxDadosUsuario.ascx" />
+    <Content Include="gestor\UserControls\ucMenu.ascx" />
+    <Content Include="gestor\Usuarios\AlterarUsuario.aspx" />
+    <Content Include="gestor\Usuarios\CadastrarUsuario.aspx" />
+    <Content Include="gestor\Usuarios\ListarUsuarios.aspx" />
+    <Content Include="sistema\bootstrap\css\bootstrap.css" />
+    <Content Include="sistema\bootstrap\css\bootstrap.min.css" />
+    <Content Include="sistema\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="sistema\bootstrap\js\bootstrap.js" />
+    <Content Include="sistema\bootstrap\js\bootstrap.min.js" />
+    <Content Include="sistema\bootstrap\js\npm.js" />
+    <Content Include="sistema\dist\css\AdminLTE.css" />
+    <Content Include="sistema\dist\css\AdminLTE.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-black-light.css" />
+    <Content Include="sistema\dist\css\skins\skin-black-light.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-black.css" />
+    <Content Include="sistema\dist\css\skins\skin-black.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-blue-light.css" />
+    <Content Include="sistema\dist\css\skins\skin-blue-light.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-blue.css" />
+    <Content Include="sistema\dist\css\skins\skin-blue.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-green-light.css" />
+    <Content Include="sistema\dist\css\skins\skin-green-light.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-green.css" />
+    <Content Include="sistema\dist\css\skins\skin-green.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-purple-light.css" />
+    <Content Include="sistema\dist\css\skins\skin-purple-light.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-purple.css" />
+    <Content Include="sistema\dist\css\skins\skin-purple.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-red-light.css" />
+    <Content Include="sistema\dist\css\skins\skin-red-light.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-red.css" />
+    <Content Include="sistema\dist\css\skins\skin-red.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-yellow-light.css" />
+    <Content Include="sistema\dist\css\skins\skin-yellow-light.min.css" />
+    <Content Include="sistema\dist\css\skins\skin-yellow.css" />
+    <Content Include="sistema\dist\css\skins\skin-yellow.min.css" />
+    <Content Include="sistema\dist\css\skins\_all-skins.css" />
+    <Content Include="sistema\dist\css\skins\_all-skins.min.css" />
+    <Content Include="sistema\dist\img\avatar.png" />
+    <Content Include="sistema\dist\img\avatar04.png" />
+    <Content Include="sistema\dist\img\avatar2.png" />
+    <Content Include="sistema\dist\img\avatar3.png" />
+    <Content Include="sistema\dist\img\avatar5.png" />
+    <Content Include="sistema\dist\img\boxed-bg.jpg" />
+    <Content Include="sistema\dist\img\boxed-bg.png" />
+    <Content Include="sistema\dist\img\credit\american-express.png" />
+    <Content Include="sistema\dist\img\credit\cirrus.png" />
+    <Content Include="sistema\dist\img\credit\mastercard.png" />
+    <Content Include="sistema\dist\img\credit\mestro.png" />
+    <Content Include="sistema\dist\img\credit\paypal.png" />
+    <Content Include="sistema\dist\img\credit\paypal2.png" />
+    <Content Include="sistema\dist\img\credit\visa.png" />
+    <Content Include="sistema\dist\img\default-50x50.gif" />
+    <Content Include="sistema\dist\img\fancybox\blank.gif" />
+    <Content Include="sistema\dist\img\fancybox\fancybox_loading%402x.gif" />
+    <Content Include="sistema\dist\img\fancybox\fancybox_loading.gif" />
+    <Content Include="sistema\dist\img\fancybox\fancybox_overlay.png" />
+    <Content Include="sistema\dist\img\fancybox\fancybox_sprite%402x.png" />
+    <Content Include="sistema\dist\img\fancybox\fancybox_sprite.png" />
+    <Content Include="sistema\dist\img\icons.png" />
+    <Content Include="sistema\dist\img\photo1.png" />
+    <Content Include="sistema\dist\img\photo2.png" />
+    <Content Include="sistema\dist\img\photo3.jpg" />
+    <Content Include="sistema\dist\img\photo4.jpg" />
+    <Content Include="sistema\dist\img\user.png" />
+    <Content Include="sistema\dist\img\user1-128x128.jpg" />
+    <Content Include="sistema\dist\img\user2-160x160.jpg" />
+    <Content Include="sistema\dist\img\user3-128x128.jpg" />
+    <Content Include="sistema\dist\img\user4-128x128.jpg" />
+    <Content Include="sistema\dist\img\user5-128x128.jpg" />
+    <Content Include="sistema\dist\img\user6-128x128.jpg" />
+    <Content Include="sistema\dist\img\user7-128x128.jpg" />
+    <Content Include="sistema\dist\img\user8-128x128.jpg" />
+    <Content Include="sistema\dist\js\app.js" />
+    <Content Include="sistema\dist\js\app.min.js" />
+    <Content Include="sistema\dist\js\demo.js" />
+    <Content Include="sistema\dist\js\pages\dashboard.js" />
+    <Content Include="sistema\dist\js\pages\dashboard2.js" />
+    <Content Include="sistema\Documentos\AlterarDocumento.aspx" />
+    <Content Include="sistema\Documentos\ArquivarExterno.aspx" />
+    <Content Include="sistema\Documentos\ArquivarInterno.aspx" />
+    <Content Include="sistema\Documentos\BuscarDocumentos.aspx" />
+    <Content Include="sistema\Documentos\CadastrarDocumento.aspx" />
+    <Content Include="sistema\Documentos\HistoricoDocumento.aspx" />
+    <Content Include="sistema\Documentos\ListarDocumentos.aspx" />
+    <Content Include="sistema\Documentos\ListarDocumentosArquivados.aspx" />
+    <Content Include="sistema\Documentos\ListarDocumentosReceber.aspx" />
+    <Content Include="sistema\Documentos\MovimentarDocumento.aspx" />
+    <Content Include="sistema\EsqueciSenha.aspx" />
+    <Content Include="sistema\Home\Default.aspx" />
+    <Content Include="sistema\Login.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Parcerias\AlterarParceria.aspx.cs">
+      <DependentUpon>AlterarParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Parcerias\AlterarParceria.aspx.designer.cs">
+      <DependentUpon>AlterarParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Parcerias\AlterarRepasseParceria.aspx.cs">
+      <DependentUpon>AlterarRepasseParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Parcerias\AlterarRepasseParceria.aspx.designer.cs">
+      <DependentUpon>AlterarRepasseParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Parcerias\CadastrarParceria.aspx.cs">
+      <DependentUpon>CadastrarParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Parcerias\CadastrarParceria.aspx.designer.cs">
+      <DependentUpon>CadastrarParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Parcerias\CadastrarRepasseParceria.aspx.cs">
+      <DependentUpon>CadastrarRepasseParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Parcerias\CadastrarRepasseParceria.aspx.designer.cs">
+      <DependentUpon>CadastrarRepasseParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Parcerias\ListarParcerias.aspx.cs">
+      <DependentUpon>ListarParcerias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Parcerias\ListarParcerias.aspx.designer.cs">
+      <DependentUpon>ListarParcerias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Parcerias\RepassesParceria.aspx.cs">
+      <DependentUpon>RepassesParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Parcerias\RepassesParceria.aspx.designer.cs">
+      <DependentUpon>RepassesParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Documentos\BuscarDocumentos.aspx.cs">
+      <DependentUpon>BuscarDocumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Documentos\BuscarDocumentos.aspx.designer.cs">
+      <DependentUpon>BuscarDocumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Documentos\HistoricoDocumento.aspx.cs">
+      <DependentUpon>HistoricoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Documentos\HistoricoDocumento.aspx.designer.cs">
+      <DependentUpon>HistoricoDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Documentos\ListarDocumentos.aspx.cs">
+      <DependentUpon>ListarDocumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Documentos\ListarDocumentos.aspx.designer.cs">
+      <DependentUpon>ListarDocumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Home\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Home\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\MasterPages\mpGesDoc.Master.cs">
+      <DependentUpon>mpGesDoc.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\MasterPages\mpGesDoc.Master.designer.cs">
+      <DependentUpon>mpGesDoc.Master</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Processos\AlterarProcesso.aspx.cs">
+      <DependentUpon>AlterarProcesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Processos\AlterarProcesso.aspx.designer.cs">
+      <DependentUpon>AlterarProcesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Processos\CadastrarProcesso.aspx.cs">
+      <DependentUpon>CadastrarProcesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Processos\CadastrarProcesso.aspx.designer.cs">
+      <DependentUpon>CadastrarProcesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Processos\ListarProcessos.aspx.cs">
+      <DependentUpon>ListarProcessos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Processos\ListarProcessos.aspx.designer.cs">
+      <DependentUpon>ListarProcessos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\ServerSideProcessing\Documentos.aspx.cs">
+      <DependentUpon>Documentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\ServerSideProcessing\Documentos.aspx.designer.cs">
+      <DependentUpon>Documentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\TiposDocumentos\AlterarTipoDocumento.aspx.cs">
+      <DependentUpon>AlterarTipoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\TiposDocumentos\AlterarTipoDocumento.aspx.designer.cs">
+      <DependentUpon>AlterarTipoDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\TiposDocumentos\CadastrarTipoDocumento.aspx.cs">
+      <DependentUpon>CadastrarTipoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\TiposDocumentos\CadastrarTipoDocumento.aspx.designer.cs">
+      <DependentUpon>CadastrarTipoDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\TiposDocumentos\ListarTiposDocumentos.aspx.cs">
+      <DependentUpon>ListarTiposDocumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\TiposDocumentos\ListarTiposDocumentos.aspx.designer.cs">
+      <DependentUpon>ListarTiposDocumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Unidades\AlterarUnidade.aspx.cs">
+      <DependentUpon>AlterarUnidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Unidades\AlterarUnidade.aspx.designer.cs">
+      <DependentUpon>AlterarUnidade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Unidades\CadastrarUnidade.aspx.cs">
+      <DependentUpon>CadastrarUnidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Unidades\CadastrarUnidade.aspx.designer.cs">
+      <DependentUpon>CadastrarUnidade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Unidades\ListarUnidades.aspx.cs">
+      <DependentUpon>ListarUnidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Unidades\ListarUnidades.aspx.designer.cs">
+      <DependentUpon>ListarUnidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\UserControls\ucBoxDadosUsuario.ascx.cs">
+      <DependentUpon>ucBoxDadosUsuario.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\UserControls\ucBoxDadosUsuario.ascx.designer.cs">
+      <DependentUpon>ucBoxDadosUsuario.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\UserControls\ucMenu.ascx.cs">
+      <DependentUpon>ucMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\UserControls\ucMenu.ascx.designer.cs">
+      <DependentUpon>ucMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Usuarios\AlterarUsuario.aspx.cs">
+      <DependentUpon>AlterarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Usuarios\AlterarUsuario.aspx.designer.cs">
+      <DependentUpon>AlterarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Usuarios\CadastrarUsuario.aspx.cs">
+      <DependentUpon>CadastrarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Usuarios\CadastrarUsuario.aspx.designer.cs">
+      <DependentUpon>CadastrarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Usuarios\ListarUsuarios.aspx.cs">
+      <DependentUpon>ListarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Usuarios\ListarUsuarios.aspx.designer.cs">
+      <DependentUpon>ListarUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sistema\Documentos\AlterarDocumento.aspx.cs">
+      <DependentUpon>AlterarDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\AlterarDocumento.aspx.designer.cs">
+      <DependentUpon>AlterarDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Documentos\ArquivarExterno.aspx.cs">
+      <DependentUpon>ArquivarExterno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\ArquivarExterno.aspx.designer.cs">
+      <DependentUpon>ArquivarExterno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Documentos\ArquivarInterno.aspx.cs">
+      <DependentUpon>ArquivarInterno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\ArquivarInterno.aspx.designer.cs">
+      <DependentUpon>ArquivarInterno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Documentos\BuscarDocumentos.aspx.cs">
+      <DependentUpon>BuscarDocumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\BuscarDocumentos.aspx.designer.cs">
+      <DependentUpon>BuscarDocumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Documentos\CadastrarDocumento.aspx.cs">
+      <DependentUpon>CadastrarDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\CadastrarDocumento.aspx.designer.cs">
+      <DependentUpon>CadastrarDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Documentos\HistoricoDocumento.aspx.cs">
+      <DependentUpon>HistoricoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\HistoricoDocumento.aspx.designer.cs">
+      <DependentUpon>HistoricoDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Documentos\ListarDocumentos.aspx.cs">
+      <DependentUpon>ListarDocumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\ListarDocumentos.aspx.designer.cs">
+      <DependentUpon>ListarDocumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Documentos\ListarDocumentosArquivados.aspx.cs">
+      <DependentUpon>ListarDocumentosArquivados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\ListarDocumentosArquivados.aspx.designer.cs">
+      <DependentUpon>ListarDocumentosArquivados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Documentos\ListarDocumentosReceber.aspx.cs">
+      <DependentUpon>ListarDocumentosReceber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\ListarDocumentosReceber.aspx.designer.cs">
+      <DependentUpon>ListarDocumentosReceber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Documentos\MovimentarDocumento.aspx.cs">
+      <DependentUpon>MovimentarDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Documentos\MovimentarDocumento.aspx.designer.cs">
+      <DependentUpon>MovimentarDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\EsqueciSenha.aspx.cs">
+      <DependentUpon>EsqueciSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\EsqueciSenha.aspx.designer.cs">
+      <DependentUpon>EsqueciSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Home\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Home\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\MasterPages\mpGesDoc.Master.cs">
+      <DependentUpon>mpGesDoc.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\MasterPages\mpGesDoc.Master.designer.cs">
+      <DependentUpon>mpGesDoc.Master</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Parcerias\AlterarParceria.aspx.cs">
+      <DependentUpon>AlterarParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Parcerias\AlterarParceria.aspx.designer.cs">
+      <DependentUpon>AlterarParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Parcerias\AlterarRepasseParceria.aspx.cs">
+      <DependentUpon>AlterarRepasseParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Parcerias\AlterarRepasseParceria.aspx.designer.cs">
+      <DependentUpon>AlterarRepasseParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Parcerias\BuscarParcerias.aspx.cs">
+      <DependentUpon>BuscarParcerias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Parcerias\BuscarParcerias.aspx.designer.cs">
+      <DependentUpon>BuscarParcerias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Parcerias\CadastrarParceria.aspx.cs">
+      <DependentUpon>CadastrarParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Parcerias\CadastrarParceria.aspx.designer.cs">
+      <DependentUpon>CadastrarParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Parcerias\CadastrarRepasseParceria.aspx.cs">
+      <DependentUpon>CadastrarRepasseParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Parcerias\CadastrarRepasseParceria.aspx.designer.cs">
+      <DependentUpon>CadastrarRepasseParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Parcerias\ListarParcerias.aspx.cs">
+      <DependentUpon>ListarParcerias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Parcerias\ListarParcerias.aspx.designer.cs">
+      <DependentUpon>ListarParcerias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Parcerias\RelatorioParcerias.aspx.cs">
+      <DependentUpon>RelatorioParcerias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Parcerias\RelatorioParcerias.aspx.designer.cs">
+      <DependentUpon>RelatorioParcerias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Parcerias\RepassesParceria.aspx.cs">
+      <DependentUpon>RepassesParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Parcerias\RepassesParceria.aspx.designer.cs">
+      <DependentUpon>RepassesParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Parcerias\VisualizarParceria.aspx.cs">
+      <DependentUpon>VisualizarParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Parcerias\VisualizarParceria.aspx.designer.cs">
+      <DependentUpon>VisualizarParceria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\ServerSideProcessing\Documentos.aspx.cs">
+      <DependentUpon>Documentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\ServerSideProcessing\Documentos.aspx.designer.cs">
+      <DependentUpon>Documentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\ServerSideProcessing\DocumentosArquivados.aspx.cs">
+      <DependentUpon>DocumentosArquivados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\ServerSideProcessing\DocumentosArquivados.aspx.designer.cs">
+      <DependentUpon>DocumentosArquivados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Unidades\ListarUnidades.aspx.cs">
+      <DependentUpon>ListarUnidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Unidades\ListarUnidades.aspx.designer.cs">
+      <DependentUpon>ListarUnidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\UserControls\ucBoxDadosUsuario.ascx.cs">
+      <DependentUpon>ucBoxDadosUsuario.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\UserControls\ucBoxDadosUsuario.ascx.designer.cs">
+      <DependentUpon>ucBoxDadosUsuario.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\UserControls\ucMenu.ascx.cs">
+      <DependentUpon>ucMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\UserControls\ucMenu.ascx.designer.cs">
+      <DependentUpon>ucMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Usuarios\AlterarSenha.aspx.cs">
+      <DependentUpon>AlterarSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Usuarios\AlterarSenha.aspx.designer.cs">
+      <DependentUpon>AlterarSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\Usuarios\VisualizarPerfil.aspx.cs">
+      <DependentUpon>VisualizarPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Usuarios\VisualizarPerfil.aspx.designer.cs">
+      <DependentUpon>VisualizarPerfil.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gestor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="gestor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="gestor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="gestor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="gestor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="gestor\build\bootstrap-less\mixins\alerts.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\background-variant.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\border-radius.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\buttons.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\center-block.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\clearfix.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\forms.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\gradients.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\grid-framework.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\grid.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\hide-text.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\image.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\labels.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\list-group.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\nav-divider.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\nav-vertical-align.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\opacity.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\pagination.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\panels.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\progress-bar.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\reset-filter.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\resize.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\responsive-visibility.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\size.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\tab-focus.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\table-row.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\text-emphasis.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\text-overflow.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins\vendor-prefixes.less" />
+    <Content Include="gestor\build\bootstrap-less\mixins.less" />
+    <Content Include="gestor\build\bootstrap-less\variables.less" />
+    <Content Include="gestor\build\less\404_500_errors.less" />
+    <Content Include="gestor\build\less\AdminLTE.less" />
+    <Content Include="gestor\build\less\alerts.less" />
+    <Content Include="gestor\build\less\bootstrap-social.less" />
+    <Content Include="gestor\build\less\boxes.less" />
+    <Content Include="gestor\build\less\buttons.less" />
+    <Content Include="gestor\build\less\callout.less" />
+    <Content Include="gestor\build\less\carousel.less" />
+    <Content Include="gestor\build\less\control-sidebar.less" />
+    <Content Include="gestor\build\less\core.less" />
+    <Content Include="gestor\build\less\direct-chat.less" />
+    <Content Include="gestor\build\less\dropdown.less" />
+    <Content Include="gestor\build\less\forms.less" />
+    <Content Include="gestor\build\less\fullcalendar.less" />
+    <Content Include="gestor\build\less\header.less" />
+    <Content Include="gestor\build\less\info-box.less" />
+    <Content Include="gestor\build\less\invoice.less" />
+    <Content Include="gestor\build\less\labels.less" />
+    <Content Include="gestor\build\less\lockscreen.less" />
+    <Content Include="gestor\build\less\login_and_register.less" />
+    <Content Include="gestor\build\less\mailbox.less" />
+    <Content Include="gestor\build\less\miscellaneous.less" />
+    <Content Include="gestor\build\less\mixins.less" />
+    <Content Include="gestor\build\less\modal.less" />
+    <Content Include="gestor\build\less\navs.less" />
+    <Content Include="gestor\build\less\print.less" />
+    <Content Include="gestor\build\less\products.less" />
+    <Content Include="gestor\build\less\profile.less" />
+    <Content Include="gestor\build\less\progress-bars.less" />
+    <Content Include="gestor\build\less\select2.less" />
+    <Content Include="gestor\build\less\sidebar-mini.less" />
+    <Content Include="gestor\build\less\sidebar.less" />
+    <Content Include="gestor\build\less\skins\_all-skins.less" />
+    <Content Include="gestor\build\less\skins\skin-black-light.less" />
+    <Content Include="gestor\build\less\skins\skin-black.less" />
+    <Content Include="gestor\build\less\skins\skin-blue-light.less" />
+    <Content Include="gestor\build\less\skins\skin-blue.less" />
+    <Content Include="gestor\build\less\skins\skin-green-light.less" />
+    <Content Include="gestor\build\less\skins\skin-green.less" />
+    <Content Include="gestor\build\less\skins\skin-purple-light.less" />
+    <Content Include="gestor\build\less\skins\skin-purple.less" />
+    <Content Include="gestor\build\less\skins\skin-red-light.less" />
+    <Content Include="gestor\build\less\skins\skin-red.less" />
+    <Content Include="gestor\build\less\skins\skin-yellow-light.less" />
+    <Content Include="gestor\build\less\skins\skin-yellow.less" />
+    <Content Include="gestor\build\less\small-box.less" />
+    <Content Include="gestor\build\less\social-widgets.less" />
+    <Content Include="gestor\build\less\table.less" />
+    <Content Include="gestor\build\less\timeline.less" />
+    <Content Include="gestor\build\less\users-list.less" />
+    <Content Include="gestor\build\less\variables.less" />
+    <Content Include="gestor\MasterPages\mpGesDoc.Master" />
+    <Content Include="gestor\plugins\input-mask\phone-codes\phone-be.json" />
+    <Content Include="gestor\plugins\input-mask\phone-codes\phone-codes.json" />
+    <None Include="Properties\PublishProfiles\LOCALHOST %28CASA%29.pubxml" />
+    <None Include="Properties\PublishProfiles\LOCALHOST %28DNPM%29.pubxml" />
+    <None Include="Properties\PublishProfiles\SITE.pubxml" />
+    <Content Include="sistema\Parcerias\AlterarParceria.aspx" />
+    <Content Include="sistema\Parcerias\AlterarRepasseParceria.aspx" />
+    <Content Include="sistema\Parcerias\BuscarParcerias.aspx" />
+    <Content Include="sistema\Parcerias\CadastrarParceria.aspx" />
+    <Content Include="sistema\Parcerias\CadastrarRepasseParceria.aspx" />
+    <Content Include="sistema\Parcerias\ListarParcerias.aspx" />
+    <Content Include="sistema\Parcerias\RelatorioParcerias.aspx" />
+    <Content Include="sistema\Parcerias\RepassesParceria.aspx" />
+    <Content Include="sistema\Parcerias\VisualizarParceria.aspx" />
+    <Content Include="sistema\plugins\bootbox\bootbox.min.js" />
+    <Content Include="sistema\plugins\datatables\dataTables.bootstrap.css" />
+    <Content Include="sistema\plugins\datatables\dataTables.bootstrap.js" />
+    <Content Include="sistema\plugins\datatables\dataTables.bootstrap.min.js" />
+    <Content Include="sistema\plugins\datatables\images\sort_asc.png" />
+    <Content Include="sistema\plugins\datatables\images\sort_asc_disabled.png" />
+    <Content Include="sistema\plugins\datatables\images\sort_both.png" />
+    <Content Include="sistema\plugins\datatables\images\sort_desc.png" />
+    <Content Include="sistema\plugins\datatables\images\sort_desc_disabled.png" />
+    <Content Include="sistema\plugins\datatables\jquery.dataTables.css" />
+    <Content Include="sistema\plugins\datatables\jquery.dataTables.js" />
+    <Content Include="sistema\plugins\datatables\jquery.dataTables.min.css" />
+    <Content Include="sistema\plugins\datatables\jquery.dataTables.min.js" />
+    <Content Include="sistema\plugins\datatables\jquery.dataTables_themeroller.css" />
+    <Content Include="sistema\plugins\datepicker\bootstrap-datepicker.js" />
+    <Content Include="sistema\plugins\datepicker\datepicker3.css" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.ar.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.az.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.bg.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.ca.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.cs.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.cy.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.da.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.de.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.el.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.es.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.et.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.fa.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.fi.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.fr.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.gl.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.he.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.hr.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.hu.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.id.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.is.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.it.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.ja.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.ka.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.kk.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.kr.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.lt.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.lv.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.mk.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.ms.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.nb.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.nl-BE.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.nl.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.no.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.pl.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.pt-BR.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.pt.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.ro.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.rs-latin.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.rs.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.ru.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.sk.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.sl.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.sq.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.sv.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.sw.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.th.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.tr.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.ua.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.vi.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.zh-CN.js" />
+    <Content Include="sistema\plugins\datepicker\locales\bootstrap-datepicker.zh-TW.js" />
+    <Content Include="sistema\plugins\fancybox\jquery.fancybox.css" />
+    <Content Include="sistema\plugins\fancybox\jquery.fancybox.js" />
+    <Content Include="sistema\plugins\fancybox\jquery.fancybox.pack.js" />
+    <Content Include="sistema\plugins\fullcalendar\fullcalendar.css" />
+    <Content Include="sistema\plugins\fullcalendar\fullcalendar.js" />
+    <Content Include="sistema\plugins\fullcalendar\fullcalendar.min.css" />
+    <Content Include="sistema\plugins\fullcalendar\fullcalendar.min.js" />
+    <Content Include="sistema\plugins\fullcalendar\fullcalendar.print.css" />
+    <Content Include="sistema\plugins\input-mask\jquery.inputmask.date.extensions.js" />
+    <Content Include="sistema\plugins\input-mask\jquery.inputmask.extensions.js" />
+    <Content Include="sistema\plugins\input-mask\jquery.inputmask.js" />
+    <Content Include="sistema\plugins\input-mask\jquery.inputmask.numeric.extensions.js" />
+    <Content Include="sistema\plugins\input-mask\jquery.inputmask.phone.extensions.js" />
+    <Content Include="sistema\plugins\input-mask\jquery.inputmask.regex.extensions.js" />
+    <Content Include="sistema\plugins\input-mask\phone-codes\readme.txt" />
+    <Content Include="sistema\plugins\jQueryUI\jquery-ui.js" />
+    <Content Include="sistema\plugins\jQueryUI\jquery-ui.min.js" />
+    <Content Include="sistema\plugins\jQuery\jQuery-2.1.4.min.js" />
+    <Content Include="sistema\plugins\priceformat\jquery.price_format.2.0.js" />
+    <Content Include="sistema\plugins\priceformat\jquery.price_format.2.0.min.js" />
+    <Content Include="sistema\ServerSideProcessing\Documentos.aspx" />
+    <Content Include="sistema\ServerSideProcessing\DocumentosArquivados.aspx" />
+    <Content Include="sistema\Unidades\ListarUnidades.aspx" />
+    <Content Include="sistema\UserControls\ucBoxDadosUsuario.ascx" />
+    <Content Include="sistema\UserControls\ucMenu.ascx" />
+    <Content Include="sistema\Usuarios\AlterarSenha.aspx" />
+    <Content Include="sistema\Usuarios\VisualizarPerfil.aspx" />
+    <Content Include="sistema\bootstrap\css\bootstrap.css.map" />
+    <Content Include="sistema\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="sistema\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="sistema\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="sistema\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="sistema\build\bootstrap-less\mixins.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\alerts.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\background-variant.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\border-radius.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\buttons.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\center-block.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\clearfix.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\forms.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\gradients.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\grid-framework.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\grid.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\hide-text.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\image.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\labels.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\list-group.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\nav-divider.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\nav-vertical-align.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\opacity.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\pagination.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\panels.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\progress-bar.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\reset-filter.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\resize.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\responsive-visibility.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\size.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\tab-focus.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\table-row.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\text-emphasis.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\text-overflow.less" />
+    <Content Include="sistema\build\bootstrap-less\mixins\vendor-prefixes.less" />
+    <Content Include="sistema\build\bootstrap-less\variables.less" />
+    <Content Include="sistema\build\less\404_500_errors.less" />
+    <Content Include="sistema\build\less\AdminLTE.less" />
+    <Content Include="sistema\build\less\alerts.less" />
+    <Content Include="sistema\build\less\bootstrap-social.less" />
+    <Content Include="sistema\build\less\boxes.less" />
+    <Content Include="sistema\build\less\buttons.less" />
+    <Content Include="sistema\build\less\callout.less" />
+    <Content Include="sistema\build\less\carousel.less" />
+    <Content Include="sistema\build\less\control-sidebar.less" />
+    <Content Include="sistema\build\less\core.less" />
+    <Content Include="sistema\build\less\direct-chat.less" />
+    <Content Include="sistema\build\less\dropdown.less" />
+    <Content Include="sistema\build\less\forms.less" />
+    <Content Include="sistema\build\less\fullcalendar.less" />
+    <Content Include="sistema\build\less\header.less" />
+    <Content Include="sistema\build\less\info-box.less" />
+    <Content Include="sistema\build\less\invoice.less" />
+    <Content Include="sistema\build\less\labels.less" />
+    <Content Include="sistema\build\less\lockscreen.less" />
+    <Content Include="sistema\build\less\login_and_register.less" />
+    <Content Include="sistema\build\less\mailbox.less" />
+    <Content Include="sistema\build\less\miscellaneous.less" />
+    <Content Include="sistema\build\less\mixins.less" />
+    <Content Include="sistema\build\less\modal.less" />
+    <Content Include="sistema\build\less\navs.less" />
+    <Content Include="sistema\build\less\print.less" />
+    <Content Include="sistema\build\less\products.less" />
+    <Content Include="sistema\build\less\profile.less" />
+    <Content Include="sistema\build\less\progress-bars.less" />
+    <Content Include="sistema\build\less\select2.less" />
+    <Content Include="sistema\build\less\sidebar-mini.less" />
+    <Content Include="sistema\build\less\sidebar.less" />
+    <Content Include="sistema\build\less\skins\skin-black-light.less" />
+    <Content Include="sistema\build\less\skins\skin-black.less" />
+    <Content Include="sistema\build\less\skins\skin-blue-light.less" />
+    <Content Include="sistema\build\less\skins\skin-blue.less" />
+    <Content Include="sistema\build\less\skins\skin-green-light.less" />
+    <Content Include="sistema\build\less\skins\skin-green.less" />
+    <Content Include="sistema\build\less\skins\skin-purple-light.less" />
+    <Content Include="sistema\build\less\skins\skin-purple.less" />
+    <Content Include="sistema\build\less\skins\skin-red-light.less" />
+    <Content Include="sistema\build\less\skins\skin-red.less" />
+    <Content Include="sistema\build\less\skins\skin-yellow-light.less" />
+    <Content Include="sistema\build\less\skins\skin-yellow.less" />
+    <Content Include="sistema\build\less\skins\_all-skins.less" />
+    <Content Include="sistema\build\less\small-box.less" />
+    <Content Include="sistema\build\less\social-widgets.less" />
+    <Content Include="sistema\build\less\table.less" />
+    <Content Include="sistema\build\less\timeline.less" />
+    <Content Include="sistema\build\less\users-list.less" />
+    <Content Include="sistema\build\less\variables.less" />
+    <Content Include="sistema\plugins\input-mask\phone-codes\phone-be.json" />
+    <Content Include="sistema\plugins\input-mask\phone-codes\phone-codes.json" />
+    <Content Include="sistema\MasterPages\mpGesDoc.Master" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LFC.SGD.DAL\LFC.GesDoc.DAL.csproj">
+      <Project>{7a09e934-e8cf-491f-827d-811db25b5827}</Project>
+      <Name>LFC.GesDoc.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LFC.SGD.Interfaces\LFC.GesDoc.Interfaces.csproj">
+      <Project>{7f1e066f-0bfd-4dd1-8511-7fcfa5114712}</Project>
+      <Name>LFC.GesDoc.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LFC.SGD.Modelos\LFC.GesDoc.Modelos.csproj">
+      <Project>{074d8df1-a286-4dd6-84b6-e2d6e2b5a0b0}</Project>
+      <Name>LFC.GesDoc.Modelos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LFC.SGD.Util\LFC.GesDoc.Util.csproj">
+      <Project>{07169a0f-9081-450a-bb37-10bd50725cf9}</Project>
+      <Name>LFC.GesDoc.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="arquivos\parcerias\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10141</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10052/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

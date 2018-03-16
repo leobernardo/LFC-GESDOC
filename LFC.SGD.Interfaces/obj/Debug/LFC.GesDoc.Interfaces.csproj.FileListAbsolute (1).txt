@@ -1,0 +1,15 @@
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\bin\Debug\LFC.GesDoc.Interfaces.dll
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\bin\Debug\LFC.GesDoc.Interfaces.pdb
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.GesDoc.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.GesDoc.Interfaces.dll
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.GesDoc.Interfaces.pdb
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\bin\Debug\LFC.GesDoc.Interfaces.dll
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\bin\Debug\LFC.GesDoc.Interfaces.pdb
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.GesDoc.Interfaces.dll
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.GesDoc.Interfaces.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\bin\Debug\LFC.GesDoc.Interfaces.dll
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\bin\Debug\LFC.GesDoc.Interfaces.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.GesDoc.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.GesDoc.Interfaces.dll
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.GesDoc.Interfaces.pdb
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.Interfaces\obj\Debug\LFC.GesDoc.Interfaces.csprojResolveAssemblyReference.cache

@@ -1,0 +1,73 @@
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll.config
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.pdb
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.dll
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.dll
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.dll
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.pdb
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.pdb
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csprojResolveAssemblyReference.cache
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.dll
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.pdb
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll.config
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.pdb
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.dll
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.dll
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.dll
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.pdb
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.pdb
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csprojResolveAssemblyReference.cache
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.dll
+C:\Users\leonardo.bernardo\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll.config
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.dll
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.dll
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.dll
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csprojResolveAssemblyReference.cache
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.dll
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.pdb
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll.config
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.pdb
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.dll
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.dll
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.dll
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.pdb
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.pdb
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csprojResolveAssemblyReference.cache
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.dll
+C:\Users\LEONARDO\Google Drive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.pdb
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll.config
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.pdb
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.dll
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.dll
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.dll
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.pdb
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.pdb
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csprojResolveAssemblyReference.cache
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.dll
+C:\Users\LEONARDO\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.pdb
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll.config
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.pdb
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.dll
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.dll
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.dll
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.pdb
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.pdb
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csprojResolveAssemblyReference.cache
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.dll
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.pdb
+C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csproj.CoreCompileInputs.cache

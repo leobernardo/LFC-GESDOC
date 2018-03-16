@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mpGesDoc.master.cs" Inherits="LFC.GesDoc.Site.gestor.MasterPages.mpGesDoc" %>
+
+<%@ Register Src="~/gestor/UserControls/ucMenu.ascx" TagPrefix="uc" TagName="ucMenu" %>
+<%@ Register Src="~/gestor/UserControls/ucBoxDadosUsuario.ascx" TagPrefix="uc" TagName="ucBoxDadosUsuario" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>[ MÓDULO GESTOR ] GesDoc | Sistema de Gestão de Documentos LFC</title>
+    <asp:ContentPlaceHolder id="cphHEAD" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-black sidebar-mini">
+    <!-- Site wrapper -->
+    <div class="wrapper">
+
+      <header class="main-header">
+        <!-- Logo -->
+        <a href="../Home/Default.aspx" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini"><b>GD</b>L</span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"><b>GesDoc</b>LFC</span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <uc:ucBoxDadosUsuario runat="server" id="ucBoxDadosUsuario" />
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- =============================================== -->
+
+      <!-- Left side column. contains the sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- Sidebar user panel -->
+          <div class="user-panel">
+            <div class="pull-left image">
+              <img src="../dist/img/user.png" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+              <p><a href="#"><asp:Literal ID="litEmail" runat="server"></asp:Literal></a></p>
+              <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            </div>
+          </div>
+
+          <uc:ucMenu runat="server" id="ucMenu" />
+
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- =============================================== -->
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+
+        <asp:ContentPlaceHolder id="cphCONTEUDO" runat="server"></asp:ContentPlaceHolder>
+
+      </div><!-- /.content-wrapper -->
+
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          <b>Versão</b> <asp:Literal ID="litVersao" runat="server" />
+        </div>
+        <strong>[ MÓDULO GESTOR ] GesDoc</strong> | Sistema de Gestão de Documentos LFC
+      </footer>
+
+    </div><!-- ./wrapper -->
+
+    <asp:ContentPlaceHolder id="cphFOOTER" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>

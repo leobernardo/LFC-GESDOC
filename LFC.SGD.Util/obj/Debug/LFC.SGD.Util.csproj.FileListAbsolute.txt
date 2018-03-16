@@ -1,0 +1,5 @@
+E:\Via1\Projetos\LFC\LFC.SGD.Util\bin\Debug\LFC.SGD.Util.dll
+E:\Via1\Projetos\LFC\LFC.SGD.Util\bin\Debug\LFC.SGD.Util.pdb
+E:\Via1\Projetos\LFC\LFC.SGD.Util\obj\Debug\LFC.SGD.Util.csprojResolveAssemblyReference.cache
+E:\Via1\Projetos\LFC\LFC.SGD.Util\obj\Debug\LFC.SGD.Util.dll
+E:\Via1\Projetos\LFC\LFC.SGD.Util\obj\Debug\LFC.SGD.Util.pdb

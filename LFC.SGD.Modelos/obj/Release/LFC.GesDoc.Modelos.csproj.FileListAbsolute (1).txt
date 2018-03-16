@@ -1,0 +1,10 @@
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\bin\Release\LFC.GesDoc.Modelos.dll
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\bin\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\obj\Release\LFC.GesDoc.Modelos.csprojResolveAssemblyReference.cache
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\obj\Release\LFC.GesDoc.Modelos.dll
+C:\Users\PC\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\obj\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\bin\Release\LFC.GesDoc.Modelos.dll
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\bin\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\obj\Release\LFC.GesDoc.Modelos.csprojResolveAssemblyReference.cache
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\obj\Release\LFC.GesDoc.Modelos.dll
+C:\Users\LEONARDO\Dropbox\Projetos\Via1\LFC\LFC.SGD.Modelos\obj\Release\LFC.GesDoc.Modelos.pdb

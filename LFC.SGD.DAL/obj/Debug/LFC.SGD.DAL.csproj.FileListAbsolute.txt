@@ -1,0 +1,12 @@
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\obj\Debug\LFC.SGD.DAL.csprojResolveAssemblyReference.cache
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\bin\Debug\LFC.SGD.DAL.dll
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\bin\Debug\LFC.SGD.DAL.pdb
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\bin\Debug\LFC.SGD.Interfaces.dll
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\bin\Debug\LFC.SGD.Modelos.dll
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\bin\Debug\LFC.SGD.Util.dll
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\bin\Debug\LFC.SGD.Interfaces.pdb
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\bin\Debug\LFC.SGD.Modelos.pdb
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\bin\Debug\LFC.SGD.Util.pdb
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\obj\Debug\LFC.SGD.DAL.dll
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\obj\Debug\LFC.SGD.DAL.pdb
+E:\Via1\Projetos\LFC\LFC.SGD.DAL\bin\Debug\LFC.SGD.DAL.dll.config

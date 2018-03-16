@@ -1,0 +1,1741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\leonardo.bernardo\OneDrive\TI\Builds\LFC</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/LFC.GesDoc.DAL.dll">
+      <publishTime>03/05/2018 19:37:51</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.DAL.dll.config">
+      <publishTime>06/18/2017 15:37:07</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.DAL.pdb">
+      <publishTime>03/05/2018 19:37:51</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.Interfaces.dll">
+      <publishTime>03/05/2018 18:33:20</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.Interfaces.pdb">
+      <publishTime>03/05/2018 18:33:20</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.Modelos.dll">
+      <publishTime>03/05/2018 18:33:20</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.Modelos.pdb">
+      <publishTime>03/05/2018 18:33:20</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.Site.dll">
+      <publishTime>03/05/2018 19:49:52</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.Site.pdb">
+      <publishTime>03/05/2018 19:49:52</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.Util.dll">
+      <publishTime>03/05/2018 19:37:51</publishTime>
+    </File>
+    <File Include="bin/LFC.GesDoc.Util.pdb">
+      <publishTime>03/05/2018 19:37:51</publishTime>
+    </File>
+    <File Include="bin/Spire.Common.dll">
+      <publishTime>01/23/2017 22:16:58</publishTime>
+    </File>
+    <File Include="bin/Spire.License.dll">
+      <publishTime>01/23/2017 22:16:58</publishTime>
+    </File>
+    <File Include="bin/Spire.Pdf.dll">
+      <publishTime>01/23/2017 22:17:00</publishTime>
+    </File>
+    <File Include="bin/Spire.XLS.dll">
+      <publishTime>01/23/2017 22:17:02</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/23/2016 13:11:27</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/css/bootstrap.css">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/css/bootstrap.css.map">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/css/bootstrap.min.css">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/js/bootstrap.js">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/js/bootstrap.min.js">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/bootstrap/js/npm.js">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/alerts.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/background-variant.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/border-radius.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/buttons.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/center-block.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/clearfix.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/forms.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/gradients.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/grid-framework.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/grid.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/hide-text.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/image.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/labels.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/list-group.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/nav-divider.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/nav-vertical-align.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/opacity.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/pagination.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/panels.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/progress-bar.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/reset-filter.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/resize.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/responsive-visibility.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/size.less">
+      <publishTime>05/23/2016 14:35:34</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/tab-focus.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/table-row.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/text-emphasis.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/text-overflow.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/mixins/vendor-prefixes.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/bootstrap-less/variables.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/404_500_errors.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/AdminLTE.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/alerts.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/bootstrap-social.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/boxes.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/buttons.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/callout.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/carousel.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/control-sidebar.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/core.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/direct-chat.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/dropdown.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/forms.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/fullcalendar.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/header.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/info-box.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/invoice.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/labels.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/lockscreen.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/login_and_register.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/mailbox.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/miscellaneous.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/mixins.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/modal.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/navs.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/print.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/products.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/profile.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/progress-bars.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/select2.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/sidebar-mini.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/sidebar.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-black-light.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-black.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-blue-light.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-blue.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-green-light.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-green.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-purple-light.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-purple.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-red-light.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-red.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-yellow-light.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/skin-yellow.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/skins/_all-skins.less">
+      <publishTime>05/23/2016 14:35:35</publishTime>
+    </File>
+    <File Include="gestor/build/less/small-box.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/social-widgets.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/table.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/timeline.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/users-list.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/build/less/variables.less">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/AdminLTE.css">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/css/AdminLTE.min.css">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-black-light.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-black-light.min.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-black.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-black.min.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-blue-light.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-blue-light.min.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-blue.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-blue.min.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-green-light.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-green-light.min.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-green.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-green.min.css">
+      <publishTime>05/23/2016 14:35:37</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-purple-light.css">
+      <publishTime>05/23/2016 14:35:37</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-purple-light.min.css">
+      <publishTime>05/23/2016 14:35:37</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-purple.css">
+      <publishTime>05/23/2016 14:35:37</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-purple.min.css">
+      <publishTime>05/23/2016 14:35:37</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-red-light.css">
+      <publishTime>05/23/2016 14:35:37</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-red-light.min.css">
+      <publishTime>05/23/2016 14:35:37</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-red.css">
+      <publishTime>05/23/2016 14:35:37</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-red.min.css">
+      <publishTime>05/23/2016 14:35:37</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-yellow-light.css">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-yellow-light.min.css">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-yellow.css">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/skin-yellow.min.css">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/_all-skins.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/css/skins/_all-skins.min.css">
+      <publishTime>05/23/2016 14:35:36</publishTime>
+    </File>
+    <File Include="gestor/dist/img/avatar.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/avatar04.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/avatar2.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/avatar3.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/avatar5.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/boxed-bg.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/boxed-bg.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/credit/american-express.png">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/credit/cirrus.png">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/credit/mastercard.png">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/credit/mestro.png">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/credit/paypal.png">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/credit/paypal2.png">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/credit/visa.png">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/default-50x50.gif">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/fancybox/blank.gif">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/fancybox/fancybox_loading%402x.gif">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/fancybox/fancybox_loading.gif">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/fancybox/fancybox_overlay.png">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/fancybox/fancybox_sprite%402x.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/fancybox/fancybox_sprite.png">
+      <publishTime>05/23/2016 14:35:38</publishTime>
+    </File>
+    <File Include="gestor/dist/img/icons.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/photo1.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/photo2.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/photo3.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/photo4.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/user.png">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/user1-128x128.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/user2-160x160.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/user3-128x128.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/user4-128x128.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/user5-128x128.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/user6-128x128.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/user7-128x128.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/img/user8-128x128.jpg">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/js/app.js">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/js/app.min.js">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/js/demo.js">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/js/pages/dashboard.js">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/dist/js/pages/dashboard2.js">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/Documentos/BuscarDocumentos.aspx">
+      <publishTime>12/30/2016 00:08:30</publishTime>
+    </File>
+    <File Include="gestor/Documentos/HistoricoDocumento.aspx">
+      <publishTime>11/24/2016 22:38:50</publishTime>
+    </File>
+    <File Include="gestor/Documentos/ListarDocumentos.aspx">
+      <publishTime>03/06/2017 22:07:48</publishTime>
+    </File>
+    <File Include="gestor/Home/Default.aspx">
+      <publishTime>11/24/2016 22:33:13</publishTime>
+    </File>
+    <File Include="gestor/Login.aspx">
+      <publishTime>11/24/2016 22:38:49</publishTime>
+    </File>
+    <File Include="gestor/MasterPages/mpGesDoc.Master">
+      <publishTime>12/27/2016 14:40:13</publishTime>
+    </File>
+    <File Include="gestor/Parcerias/AlterarParceria.aspx">
+      <publishTime>06/27/2017 09:45:09</publishTime>
+    </File>
+    <File Include="gestor/Parcerias/AlterarRepasseParceria.aspx">
+      <publishTime>06/18/2017 13:46:36</publishTime>
+    </File>
+    <File Include="gestor/Parcerias/CadastrarParceria.aspx">
+      <publishTime>06/27/2017 09:44:50</publishTime>
+    </File>
+    <File Include="gestor/Parcerias/CadastrarRepasseParceria.aspx">
+      <publishTime>06/18/2017 13:35:57</publishTime>
+    </File>
+    <File Include="gestor/Parcerias/ListarParcerias.aspx">
+      <publishTime>08/31/2017 12:22:15</publishTime>
+    </File>
+    <File Include="gestor/Parcerias/RepassesParceria.aspx">
+      <publishTime>06/18/2017 14:19:28</publishTime>
+    </File>
+    <File Include="gestor/plugins/bootbox/bootbox.min.js">
+      <publishTime>05/23/2016 14:35:39</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/dataTables.bootstrap.css">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/dataTables.bootstrap.js">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/dataTables.bootstrap.min.js">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/images/sort_asc.png">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/images/sort_asc_disabled.png">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/images/sort_both.png">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/images/sort_desc.png">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/images/sort_desc_disabled.png">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/jquery.dataTables.css">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/jquery.dataTables.js">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/jquery.dataTables.min.css">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/jquery.dataTables.min.js">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datatables/jquery.dataTables_themeroller.css">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/bootstrap-datepicker.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/datepicker3.css">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.ar.js">
+      <publishTime>05/23/2016 14:35:58</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.az.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.bg.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.ca.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.cs.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.cy.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.da.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.de.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.el.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.es.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.et.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.fa.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.fi.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.fr.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.gl.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.he.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.hr.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.hu.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.id.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.is.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.it.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.ja.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.ka.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.kk.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.kr.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.lt.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.lv.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.mk.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.ms.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.nb.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.nl.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.no.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.pl.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.pt.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.ro.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.rs.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.ru.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.sk.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.sl.js">
+      <publishTime>05/23/2016 14:35:59</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.sq.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.sv.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.sw.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.th.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.tr.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.ua.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.vi.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/fancybox/jquery.fancybox.css">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/fancybox/jquery.fancybox.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/fancybox/jquery.fancybox.pack.js">
+      <publishTime>05/23/2016 14:36:00</publishTime>
+    </File>
+    <File Include="gestor/plugins/fullcalendar/fullcalendar.css">
+      <publishTime>05/23/2016 14:36:02</publishTime>
+    </File>
+    <File Include="gestor/plugins/fullcalendar/fullcalendar.js">
+      <publishTime>05/23/2016 14:36:02</publishTime>
+    </File>
+    <File Include="gestor/plugins/fullcalendar/fullcalendar.min.css">
+      <publishTime>05/23/2016 14:36:02</publishTime>
+    </File>
+    <File Include="gestor/plugins/fullcalendar/fullcalendar.min.js">
+      <publishTime>05/23/2016 14:36:02</publishTime>
+    </File>
+    <File Include="gestor/plugins/fullcalendar/fullcalendar.print.css">
+      <publishTime>05/23/2016 14:36:02</publishTime>
+    </File>
+    <File Include="gestor/plugins/input-mask/jquery.inputmask.date.extensions.js">
+      <publishTime>05/23/2016 14:36:10</publishTime>
+    </File>
+    <File Include="gestor/plugins/input-mask/jquery.inputmask.extensions.js">
+      <publishTime>05/23/2016 14:36:10</publishTime>
+    </File>
+    <File Include="gestor/plugins/input-mask/jquery.inputmask.js">
+      <publishTime>05/23/2016 14:36:10</publishTime>
+    </File>
+    <File Include="gestor/plugins/input-mask/jquery.inputmask.numeric.extensions.js">
+      <publishTime>05/23/2016 14:36:10</publishTime>
+    </File>
+    <File Include="gestor/plugins/input-mask/jquery.inputmask.phone.extensions.js">
+      <publishTime>05/23/2016 14:36:10</publishTime>
+    </File>
+    <File Include="gestor/plugins/input-mask/jquery.inputmask.regex.extensions.js">
+      <publishTime>05/23/2016 14:36:10</publishTime>
+    </File>
+    <File Include="gestor/plugins/input-mask/phone-codes/phone-be.json">
+      <publishTime>05/23/2016 14:36:10</publishTime>
+    </File>
+    <File Include="gestor/plugins/input-mask/phone-codes/phone-codes.json">
+      <publishTime>05/23/2016 14:36:10</publishTime>
+    </File>
+    <File Include="gestor/plugins/input-mask/phone-codes/readme.txt">
+      <publishTime>05/23/2016 14:36:10</publishTime>
+    </File>
+    <File Include="gestor/plugins/jQuery/jQuery-2.1.4.min.js">
+      <publishTime>05/23/2016 14:36:11</publishTime>
+    </File>
+    <File Include="gestor/plugins/jQueryUI/jquery-ui.js">
+      <publishTime>12/27/2016 01:52:28</publishTime>
+    </File>
+    <File Include="gestor/plugins/jQueryUI/jquery-ui.min.js">
+      <publishTime>12/27/2016 01:52:28</publishTime>
+    </File>
+    <File Include="gestor/plugins/priceformat/jquery.price_format.2.0.js">
+      <publishTime>03/06/2017 21:05:29</publishTime>
+    </File>
+    <File Include="gestor/plugins/priceformat/jquery.price_format.2.0.min.js">
+      <publishTime>03/06/2017 21:05:29</publishTime>
+    </File>
+    <File Include="gestor/Processos/AlterarProcesso.aspx">
+      <publishTime>12/28/2016 01:38:08</publishTime>
+    </File>
+    <File Include="gestor/Processos/CadastrarProcesso.aspx">
+      <publishTime>12/28/2016 01:38:05</publishTime>
+    </File>
+    <File Include="gestor/Processos/ListarProcessos.aspx">
+      <publishTime>12/28/2016 01:37:02</publishTime>
+    </File>
+    <File Include="gestor/ServerSideProcessing/Documentos.aspx">
+      <publishTime>05/23/2016 14:56:58</publishTime>
+    </File>
+    <File Include="gestor/TiposDocumentos/AlterarTipoDocumento.aspx">
+      <publishTime>11/24/2016 22:38:49</publishTime>
+    </File>
+    <File Include="gestor/TiposDocumentos/CadastrarTipoDocumento.aspx">
+      <publishTime>12/30/2016 00:06:08</publishTime>
+    </File>
+    <File Include="gestor/TiposDocumentos/ListarTiposDocumentos.aspx">
+      <publishTime>12/30/2016 00:13:43</publishTime>
+    </File>
+    <File Include="gestor/Unidades/AlterarUnidade.aspx">
+      <publishTime>11/24/2016 23:15:44</publishTime>
+    </File>
+    <File Include="gestor/Unidades/CadastrarUnidade.aspx">
+      <publishTime>11/24/2016 22:38:49</publishTime>
+    </File>
+    <File Include="gestor/Unidades/ListarUnidades.aspx">
+      <publishTime>12/27/2016 12:38:21</publishTime>
+    </File>
+    <File Include="gestor/UserControls/ucBoxDadosUsuario.ascx">
+      <publishTime>05/23/2016 15:14:39</publishTime>
+    </File>
+    <File Include="gestor/UserControls/ucMenu.ascx">
+      <publishTime>06/18/2017 13:13:36</publishTime>
+    </File>
+    <File Include="gestor/Usuarios/AlterarUsuario.aspx">
+      <publishTime>12/28/2016 00:37:33</publishTime>
+    </File>
+    <File Include="gestor/Usuarios/CadastrarUsuario.aspx">
+      <publishTime>12/28/2016 00:33:31</publishTime>
+    </File>
+    <File Include="gestor/Usuarios/ListarUsuarios.aspx">
+      <publishTime>12/28/2016 00:29:55</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/18/2017 08:35:11</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>03/05/2018 19:49:53</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/css/bootstrap.css">
+      <publishTime>05/19/2016 21:15:41</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/css/bootstrap.css.map">
+      <publishTime>05/19/2016 21:15:43</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/css/bootstrap.min.css">
+      <publishTime>05/19/2016 21:15:38</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/19/2016 21:15:44</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/19/2016 21:15:45</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/19/2016 21:15:44</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/19/2016 21:15:43</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/19/2016 21:15:42</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/js/bootstrap.js">
+      <publishTime>05/19/2016 21:15:46</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/js/bootstrap.min.js">
+      <publishTime>05/19/2016 21:15:45</publishTime>
+    </File>
+    <File Include="sistema/bootstrap/js/npm.js">
+      <publishTime>05/19/2016 21:15:45</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins.less">
+      <publishTime>05/19/2016 21:15:46</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/alerts.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/background-variant.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/border-radius.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/buttons.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/center-block.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/clearfix.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/forms.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/gradients.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/grid-framework.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/grid.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/hide-text.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/image.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/labels.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/list-group.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/nav-divider.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/nav-vertical-align.less">
+      <publishTime>05/19/2016 21:15:48</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/opacity.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/pagination.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/panels.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/progress-bar.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/reset-filter.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/resize.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/responsive-visibility.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/size.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/tab-focus.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/table-row.less">
+      <publishTime>05/19/2016 21:15:47</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/text-emphasis.less">
+      <publishTime>05/19/2016 21:15:46</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/text-overflow.less">
+      <publishTime>05/19/2016 21:15:46</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/mixins/vendor-prefixes.less">
+      <publishTime>05/19/2016 21:15:46</publishTime>
+    </File>
+    <File Include="sistema/build/bootstrap-less/variables.less">
+      <publishTime>05/19/2016 21:15:46</publishTime>
+    </File>
+    <File Include="sistema/build/less/404_500_errors.less">
+      <publishTime>05/19/2016 21:15:53</publishTime>
+    </File>
+    <File Include="sistema/build/less/AdminLTE.less">
+      <publishTime>05/19/2016 21:15:53</publishTime>
+    </File>
+    <File Include="sistema/build/less/alerts.less">
+      <publishTime>05/19/2016 21:15:53</publishTime>
+    </File>
+    <File Include="sistema/build/less/bootstrap-social.less">
+      <publishTime>05/19/2016 21:15:53</publishTime>
+    </File>
+    <File Include="sistema/build/less/boxes.less">
+      <publishTime>05/19/2016 21:15:53</publishTime>
+    </File>
+    <File Include="sistema/build/less/buttons.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/callout.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/carousel.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/control-sidebar.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/core.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/direct-chat.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/dropdown.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/forms.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/fullcalendar.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/header.less">
+      <publishTime>05/19/2016 21:15:52</publishTime>
+    </File>
+    <File Include="sistema/build/less/info-box.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/invoice.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/labels.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/lockscreen.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/login_and_register.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/mailbox.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/miscellaneous.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/mixins.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/modal.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/navs.less">
+      <publishTime>05/19/2016 21:15:51</publishTime>
+    </File>
+    <File Include="sistema/build/less/print.less">
+      <publishTime>05/19/2016 21:15:50</publishTime>
+    </File>
+    <File Include="sistema/build/less/products.less">
+      <publishTime>05/19/2016 21:15:50</publishTime>
+    </File>
+    <File Include="sistema/build/less/profile.less">
+      <publishTime>05/19/2016 21:15:50</publishTime>
+    </File>
+    <File Include="sistema/build/less/progress-bars.less">
+      <publishTime>05/19/2016 21:15:50</publishTime>
+    </File>
+    <File Include="sistema/build/less/select2.less">
+      <publishTime>05/19/2016 21:15:50</publishTime>
+    </File>
+    <File Include="sistema/build/less/sidebar-mini.less">
+      <publishTime>05/19/2016 21:15:50</publishTime>
+    </File>
+    <File Include="sistema/build/less/sidebar.less">
+      <publishTime>05/19/2016 21:15:50</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-black-light.less">
+      <publishTime>05/19/2016 21:15:54</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-black.less">
+      <publishTime>05/19/2016 21:15:54</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-blue-light.less">
+      <publishTime>05/19/2016 21:15:54</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-blue.less">
+      <publishTime>05/19/2016 21:15:54</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-green-light.less">
+      <publishTime>05/19/2016 21:15:54</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-green.less">
+      <publishTime>05/19/2016 21:15:54</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-purple-light.less">
+      <publishTime>05/19/2016 21:15:54</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-purple.less">
+      <publishTime>05/19/2016 21:15:54</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-red-light.less">
+      <publishTime>05/19/2016 21:15:53</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-red.less">
+      <publishTime>05/19/2016 21:15:53</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-yellow-light.less">
+      <publishTime>05/19/2016 21:15:53</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/skin-yellow.less">
+      <publishTime>05/19/2016 21:15:53</publishTime>
+    </File>
+    <File Include="sistema/build/less/skins/_all-skins.less">
+      <publishTime>05/19/2016 21:15:54</publishTime>
+    </File>
+    <File Include="sistema/build/less/small-box.less">
+      <publishTime>05/19/2016 21:15:50</publishTime>
+    </File>
+    <File Include="sistema/build/less/social-widgets.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/build/less/table.less">
+      <publishTime>05/19/2016 21:15:50</publishTime>
+    </File>
+    <File Include="sistema/build/less/timeline.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/build/less/users-list.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/build/less/variables.less">
+      <publishTime>05/19/2016 21:15:49</publishTime>
+    </File>
+    <File Include="sistema/dist/css/AdminLTE.css">
+      <publishTime>05/19/2016 21:15:56</publishTime>
+    </File>
+    <File Include="sistema/dist/css/AdminLTE.min.css">
+      <publishTime>05/19/2016 21:15:55</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-black-light.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-black-light.min.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-black.css">
+      <publishTime>05/19/2016 21:15:59</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-black.min.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-blue-light.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-blue-light.min.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-blue.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-blue.min.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-green-light.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-green-light.min.css">
+      <publishTime>05/19/2016 21:15:57</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-green.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-green.min.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-purple-light.css">
+      <publishTime>05/19/2016 21:15:57</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-purple-light.min.css">
+      <publishTime>05/19/2016 21:15:57</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-purple.css">
+      <publishTime>05/19/2016 21:15:57</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-purple.min.css">
+      <publishTime>05/19/2016 21:15:58</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-red-light.css">
+      <publishTime>05/19/2016 21:15:57</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-red-light.min.css">
+      <publishTime>05/19/2016 21:15:56</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-red.css">
+      <publishTime>05/19/2016 21:15:57</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-red.min.css">
+      <publishTime>05/19/2016 21:15:57</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-yellow-light.css">
+      <publishTime>05/19/2016 21:15:56</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-yellow-light.min.css">
+      <publishTime>05/19/2016 21:15:56</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-yellow.css">
+      <publishTime>05/19/2016 21:15:56</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/skin-yellow.min.css">
+      <publishTime>05/19/2016 21:15:56</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/_all-skins.css">
+      <publishTime>05/19/2016 21:15:59</publishTime>
+    </File>
+    <File Include="sistema/dist/css/skins/_all-skins.min.css">
+      <publishTime>05/19/2016 21:15:59</publishTime>
+    </File>
+    <File Include="sistema/dist/img/avatar.png">
+      <publishTime>05/19/2016 21:16:27</publishTime>
+    </File>
+    <File Include="sistema/dist/img/avatar04.png">
+      <publishTime>05/19/2016 21:16:26</publishTime>
+    </File>
+    <File Include="sistema/dist/img/avatar2.png">
+      <publishTime>05/19/2016 21:16:26</publishTime>
+    </File>
+    <File Include="sistema/dist/img/avatar3.png">
+      <publishTime>05/19/2016 21:16:25</publishTime>
+    </File>
+    <File Include="sistema/dist/img/avatar5.png">
+      <publishTime>05/19/2016 21:16:25</publishTime>
+    </File>
+    <File Include="sistema/dist/img/boxed-bg.jpg">
+      <publishTime>05/19/2016 21:16:25</publishTime>
+    </File>
+    <File Include="sistema/dist/img/boxed-bg.png">
+      <publishTime>05/19/2016 21:16:23</publishTime>
+    </File>
+    <File Include="sistema/dist/img/credit/american-express.png">
+      <publishTime>05/19/2016 21:16:28</publishTime>
+    </File>
+    <File Include="sistema/dist/img/credit/cirrus.png">
+      <publishTime>05/19/2016 21:16:27</publishTime>
+    </File>
+    <File Include="sistema/dist/img/credit/mastercard.png">
+      <publishTime>05/19/2016 21:16:27</publishTime>
+    </File>
+    <File Include="sistema/dist/img/credit/mestro.png">
+      <publishTime>05/19/2016 21:16:27</publishTime>
+    </File>
+    <File Include="sistema/dist/img/credit/paypal.png">
+      <publishTime>05/19/2016 21:16:27</publishTime>
+    </File>
+    <File Include="sistema/dist/img/credit/paypal2.png">
+      <publishTime>05/19/2016 21:16:27</publishTime>
+    </File>
+    <File Include="sistema/dist/img/credit/visa.png">
+      <publishTime>05/19/2016 21:16:27</publishTime>
+    </File>
+    <File Include="sistema/dist/img/default-50x50.gif">
+      <publishTime>05/19/2016 21:16:22</publishTime>
+    </File>
+    <File Include="sistema/dist/img/fancybox/blank.gif">
+      <publishTime>05/19/2016 21:16:29</publishTime>
+    </File>
+    <File Include="sistema/dist/img/fancybox/fancybox_loading%402x.gif">
+      <publishTime>05/19/2016 21:16:28</publishTime>
+    </File>
+    <File Include="sistema/dist/img/fancybox/fancybox_loading.gif">
+      <publishTime>05/19/2016 21:16:29</publishTime>
+    </File>
+    <File Include="sistema/dist/img/fancybox/fancybox_overlay.png">
+      <publishTime>05/19/2016 21:16:28</publishTime>
+    </File>
+    <File Include="sistema/dist/img/fancybox/fancybox_sprite%402x.png">
+      <publishTime>05/19/2016 21:16:28</publishTime>
+    </File>
+    <File Include="sistema/dist/img/fancybox/fancybox_sprite.png">
+      <publishTime>05/19/2016 21:16:28</publishTime>
+    </File>
+    <File Include="sistema/dist/img/icons.png">
+      <publishTime>05/19/2016 21:16:22</publishTime>
+    </File>
+    <File Include="sistema/dist/img/photo1.png">
+      <publishTime>05/19/2016 21:16:27</publishTime>
+    </File>
+    <File Include="sistema/dist/img/photo2.png">
+      <publishTime>05/19/2016 21:16:16</publishTime>
+    </File>
+    <File Include="sistema/dist/img/photo3.jpg">
+      <publishTime>05/19/2016 21:16:09</publishTime>
+    </File>
+    <File Include="sistema/dist/img/photo4.jpg">
+      <publishTime>05/19/2016 21:16:21</publishTime>
+    </File>
+    <File Include="sistema/dist/img/user.png">
+      <publishTime>05/19/2016 21:16:02</publishTime>
+    </File>
+    <File Include="sistema/dist/img/user1-128x128.jpg">
+      <publishTime>05/19/2016 21:16:00</publishTime>
+    </File>
+    <File Include="sistema/dist/img/user2-160x160.jpg">
+      <publishTime>05/19/2016 21:16:00</publishTime>
+    </File>
+    <File Include="sistema/dist/img/user3-128x128.jpg">
+      <publishTime>05/19/2016 21:16:00</publishTime>
+    </File>
+    <File Include="sistema/dist/img/user4-128x128.jpg">
+      <publishTime>05/19/2016 21:16:00</publishTime>
+    </File>
+    <File Include="sistema/dist/img/user5-128x128.jpg">
+      <publishTime>05/19/2016 21:16:00</publishTime>
+    </File>
+    <File Include="sistema/dist/img/user6-128x128.jpg">
+      <publishTime>05/19/2016 21:16:00</publishTime>
+    </File>
+    <File Include="sistema/dist/img/user7-128x128.jpg">
+      <publishTime>05/19/2016 21:16:00</publishTime>
+    </File>
+    <File Include="sistema/dist/img/user8-128x128.jpg">
+      <publishTime>05/19/2016 21:16:00</publishTime>
+    </File>
+    <File Include="sistema/dist/js/app.js">
+      <publishTime>05/19/2016 21:16:30</publishTime>
+    </File>
+    <File Include="sistema/dist/js/app.min.js">
+      <publishTime>05/19/2016 21:16:29</publishTime>
+    </File>
+    <File Include="sistema/dist/js/demo.js">
+      <publishTime>05/19/2016 21:16:29</publishTime>
+    </File>
+    <File Include="sistema/dist/js/pages/dashboard.js">
+      <publishTime>05/19/2016 21:16:30</publishTime>
+    </File>
+    <File Include="sistema/dist/js/pages/dashboard2.js">
+      <publishTime>05/19/2016 21:16:29</publishTime>
+    </File>
+    <File Include="sistema/Documentos/AlterarDocumento.aspx">
+      <publishTime>12/30/2016 00:08:29</publishTime>
+    </File>
+    <File Include="sistema/Documentos/ArquivarExterno.aspx">
+      <publishTime>11/24/2016 22:38:48</publishTime>
+    </File>
+    <File Include="sistema/Documentos/ArquivarInterno.aspx">
+      <publishTime>11/24/2016 22:38:48</publishTime>
+    </File>
+    <File Include="sistema/Documentos/BuscarDocumentos.aspx">
+      <publishTime>12/30/2016 00:08:29</publishTime>
+    </File>
+    <File Include="sistema/Documentos/CadastrarDocumento.aspx">
+      <publishTime>12/30/2016 00:08:30</publishTime>
+    </File>
+    <File Include="sistema/Documentos/HistoricoDocumento.aspx">
+      <publishTime>11/24/2016 22:38:47</publishTime>
+    </File>
+    <File Include="sistema/Documentos/ListarDocumentos.aspx">
+      <publishTime>11/24/2016 22:38:47</publishTime>
+    </File>
+    <File Include="sistema/Documentos/ListarDocumentosArquivados.aspx">
+      <publishTime>12/27/2016 23:28:33</publishTime>
+    </File>
+    <File Include="sistema/Documentos/ListarDocumentosReceber.aspx">
+      <publishTime>11/24/2016 22:38:47</publishTime>
+    </File>
+    <File Include="sistema/Documentos/MovimentarDocumento.aspx">
+      <publishTime>12/28/2016 02:34:48</publishTime>
+    </File>
+    <File Include="sistema/EsqueciSenha.aspx">
+      <publishTime>11/24/2016 22:38:47</publishTime>
+    </File>
+    <File Include="sistema/Home/Default.aspx">
+      <publishTime>11/24/2016 22:38:47</publishTime>
+    </File>
+    <File Include="sistema/Login.aspx">
+      <publishTime>11/24/2016 22:38:46</publishTime>
+    </File>
+    <File Include="sistema/MasterPages/mpGesDoc.Master">
+      <publishTime>12/27/2016 14:40:13</publishTime>
+    </File>
+    <File Include="sistema/Parcerias/AlterarParceria.aspx">
+      <publishTime>08/30/2017 16:05:23</publishTime>
+    </File>
+    <File Include="sistema/Parcerias/AlterarRepasseParceria.aspx">
+      <publishTime>06/18/2017 15:34:10</publishTime>
+    </File>
+    <File Include="sistema/Parcerias/BuscarParcerias.aspx">
+      <publishTime>09/15/2017 12:29:54</publishTime>
+    </File>
+    <File Include="sistema/Parcerias/CadastrarParceria.aspx">
+      <publishTime>08/30/2017 15:25:02</publishTime>
+    </File>
+    <File Include="sistema/Parcerias/CadastrarRepasseParceria.aspx">
+      <publishTime>06/18/2017 15:34:09</publishTime>
+    </File>
+    <File Include="sistema/Parcerias/ListarParcerias.aspx">
+      <publishTime>03/05/2018 18:17:10</publishTime>
+    </File>
+    <File Include="sistema/Parcerias/RelatorioParcerias.aspx">
+      <publishTime>03/05/2018 19:49:46</publishTime>
+    </File>
+    <File Include="sistema/Parcerias/RepassesParceria.aspx">
+      <publishTime>09/15/2017 14:16:53</publishTime>
+    </File>
+    <File Include="sistema/Parcerias/VisualizarParceria.aspx">
+      <publishTime>09/15/2017 15:10:40</publishTime>
+    </File>
+    <File Include="sistema/plugins/bootbox/bootbox.min.js">
+      <publishTime>05/19/2016 21:17:01</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/dataTables.bootstrap.css">
+      <publishTime>05/19/2016 21:18:09</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/dataTables.bootstrap.js">
+      <publishTime>05/19/2016 21:18:09</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/dataTables.bootstrap.min.js">
+      <publishTime>05/19/2016 21:18:08</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/images/sort_asc.png">
+      <publishTime>05/19/2016 21:19:13</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/images/sort_asc_disabled.png">
+      <publishTime>05/19/2016 21:19:13</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/images/sort_both.png">
+      <publishTime>05/19/2016 21:19:12</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/images/sort_desc.png">
+      <publishTime>05/19/2016 21:19:12</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/images/sort_desc_disabled.png">
+      <publishTime>05/19/2016 21:19:12</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/jquery.dataTables.css">
+      <publishTime>05/19/2016 21:18:08</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/jquery.dataTables.js">
+      <publishTime>05/19/2016 21:18:15</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/jquery.dataTables.min.css">
+      <publishTime>05/19/2016 21:18:07</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/jquery.dataTables.min.js">
+      <publishTime>05/19/2016 21:18:08</publishTime>
+    </File>
+    <File Include="sistema/plugins/datatables/jquery.dataTables_themeroller.css">
+      <publishTime>05/19/2016 21:18:06</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/bootstrap-datepicker.js">
+      <publishTime>05/19/2016 21:19:14</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/datepicker3.css">
+      <publishTime>05/19/2016 21:19:14</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.ar.js">
+      <publishTime>05/19/2016 21:19:27</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.az.js">
+      <publishTime>05/19/2016 21:19:27</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.bg.js">
+      <publishTime>05/19/2016 21:19:27</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.ca.js">
+      <publishTime>05/19/2016 21:19:27</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.cs.js">
+      <publishTime>05/19/2016 21:19:27</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.cy.js">
+      <publishTime>05/19/2016 21:19:27</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.da.js">
+      <publishTime>05/19/2016 21:19:27</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.de.js">
+      <publishTime>05/19/2016 21:19:26</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.el.js">
+      <publishTime>05/19/2016 21:19:26</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.es.js">
+      <publishTime>05/19/2016 21:19:27</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.et.js">
+      <publishTime>05/19/2016 21:19:26</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.fa.js">
+      <publishTime>05/19/2016 21:19:26</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.fi.js">
+      <publishTime>05/19/2016 21:19:26</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.fr.js">
+      <publishTime>05/19/2016 21:19:26</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.gl.js">
+      <publishTime>05/19/2016 21:19:26</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.he.js">
+      <publishTime>05/19/2016 21:19:25</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.hr.js">
+      <publishTime>05/19/2016 21:19:25</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.hu.js">
+      <publishTime>05/19/2016 21:19:25</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.id.js">
+      <publishTime>05/19/2016 21:19:25</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.is.js">
+      <publishTime>05/19/2016 21:19:25</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.it.js">
+      <publishTime>05/19/2016 21:19:25</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.ja.js">
+      <publishTime>05/19/2016 21:19:25</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.ka.js">
+      <publishTime>05/19/2016 21:19:25</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.kk.js">
+      <publishTime>05/19/2016 21:19:20</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.kr.js">
+      <publishTime>05/19/2016 21:19:20</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.lt.js">
+      <publishTime>05/19/2016 21:19:20</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.lv.js">
+      <publishTime>05/19/2016 21:19:20</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.mk.js">
+      <publishTime>05/19/2016 21:19:20</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.ms.js">
+      <publishTime>05/19/2016 21:19:20</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.nb.js">
+      <publishTime>05/19/2016 21:19:20</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js">
+      <publishTime>05/19/2016 21:19:19</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.nl.js">
+      <publishTime>05/19/2016 21:19:20</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.no.js">
+      <publishTime>05/19/2016 21:19:19</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.pl.js">
+      <publishTime>05/19/2016 21:19:19</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js">
+      <publishTime>05/19/2016 21:19:18</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.pt.js">
+      <publishTime>05/19/2016 21:19:18</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.ro.js">
+      <publishTime>05/19/2016 21:19:18</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js">
+      <publishTime>05/19/2016 21:19:18</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.rs.js">
+      <publishTime>05/19/2016 21:19:18</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.ru.js">
+      <publishTime>05/19/2016 21:19:17</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.sk.js">
+      <publishTime>05/19/2016 21:19:17</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.sl.js">
+      <publishTime>05/19/2016 21:19:17</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.sq.js">
+      <publishTime>05/19/2016 21:19:17</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.sv.js">
+      <publishTime>05/19/2016 21:19:17</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.sw.js">
+      <publishTime>05/19/2016 21:19:16</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.th.js">
+      <publishTime>05/19/2016 21:19:16</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.tr.js">
+      <publishTime>05/19/2016 21:19:16</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.ua.js">
+      <publishTime>05/19/2016 21:19:16</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.vi.js">
+      <publishTime>05/19/2016 21:19:15</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js">
+      <publishTime>05/19/2016 21:19:15</publishTime>
+    </File>
+    <File Include="sistema/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js">
+      <publishTime>05/19/2016 21:19:15</publishTime>
+    </File>
+    <File Include="sistema/plugins/fancybox/jquery.fancybox.css">
+      <publishTime>05/19/2016 21:19:32</publishTime>
+    </File>
+    <File Include="sistema/plugins/fancybox/jquery.fancybox.js">
+      <publishTime>05/19/2016 21:19:31</publishTime>
+    </File>
+    <File Include="sistema/plugins/fancybox/jquery.fancybox.pack.js">
+      <publishTime>05/19/2016 21:19:30</publishTime>
+    </File>
+    <File Include="sistema/plugins/fullcalendar/fullcalendar.css">
+      <publishTime>05/19/2016 21:19:48</publishTime>
+    </File>
+    <File Include="sistema/plugins/fullcalendar/fullcalendar.js">
+      <publishTime>05/19/2016 21:19:52</publishTime>
+    </File>
+    <File Include="sistema/plugins/fullcalendar/fullcalendar.min.css">
+      <publishTime>05/19/2016 21:19:48</publishTime>
+    </File>
+    <File Include="sistema/plugins/fullcalendar/fullcalendar.min.js">
+      <publishTime>05/19/2016 21:19:48</publishTime>
+    </File>
+    <File Include="sistema/plugins/fullcalendar/fullcalendar.print.css">
+      <publishTime>05/19/2016 21:19:47</publishTime>
+    </File>
+    <File Include="sistema/plugins/input-mask/jquery.inputmask.date.extensions.js">
+      <publishTime>05/19/2016 21:20:07</publishTime>
+    </File>
+    <File Include="sistema/plugins/input-mask/jquery.inputmask.extensions.js">
+      <publishTime>05/19/2016 21:20:06</publishTime>
+    </File>
+    <File Include="sistema/plugins/input-mask/jquery.inputmask.js">
+      <publishTime>05/19/2016 21:20:07</publishTime>
+    </File>
+    <File Include="sistema/plugins/input-mask/jquery.inputmask.numeric.extensions.js">
+      <publishTime>05/19/2016 21:20:06</publishTime>
+    </File>
+    <File Include="sistema/plugins/input-mask/jquery.inputmask.phone.extensions.js">
+      <publishTime>05/19/2016 21:20:06</publishTime>
+    </File>
+    <File Include="sistema/plugins/input-mask/jquery.inputmask.regex.extensions.js">
+      <publishTime>05/19/2016 21:20:05</publishTime>
+    </File>
+    <File Include="sistema/plugins/input-mask/phone-codes/phone-be.json">
+      <publishTime>05/19/2016 21:20:08</publishTime>
+    </File>
+    <File Include="sistema/plugins/input-mask/phone-codes/phone-codes.json">
+      <publishTime>05/19/2016 21:20:08</publishTime>
+    </File>
+    <File Include="sistema/plugins/input-mask/phone-codes/readme.txt">
+      <publishTime>05/19/2016 21:20:08</publishTime>
+    </File>
+    <File Include="sistema/plugins/jQuery/jQuery-2.1.4.min.js">
+      <publishTime>05/19/2016 21:20:11</publishTime>
+    </File>
+    <File Include="sistema/plugins/jQueryUI/jquery-ui.js">
+      <publishTime>05/19/2016 21:20:20</publishTime>
+    </File>
+    <File Include="sistema/plugins/jQueryUI/jquery-ui.min.js">
+      <publishTime>05/19/2016 21:20:14</publishTime>
+    </File>
+    <File Include="sistema/plugins/priceformat/jquery.price_format.2.0.js">
+      <publishTime>03/07/2017 14:26:31</publishTime>
+    </File>
+    <File Include="sistema/plugins/priceformat/jquery.price_format.2.0.min.js">
+      <publishTime>03/07/2017 14:26:31</publishTime>
+    </File>
+    <File Include="sistema/ServerSideProcessing/Documentos.aspx">
+      <publishTime>05/20/2016 17:38:08</publishTime>
+    </File>
+    <File Include="sistema/ServerSideProcessing/DocumentosArquivados.aspx">
+      <publishTime>05/20/2016 17:38:21</publishTime>
+    </File>
+    <File Include="sistema/Unidades/ListarUnidades.aspx">
+      <publishTime>09/15/2017 10:39:17</publishTime>
+    </File>
+    <File Include="sistema/UserControls/ucBoxDadosUsuario.ascx">
+      <publishTime>05/20/2016 15:53:33</publishTime>
+    </File>
+    <File Include="sistema/UserControls/ucMenu.ascx">
+      <publishTime>09/15/2017 09:34:58</publishTime>
+    </File>
+    <File Include="sistema/Usuarios/AlterarSenha.aspx">
+      <publishTime>11/24/2016 22:38:46</publishTime>
+    </File>
+    <File Include="sistema/Usuarios/VisualizarPerfil.aspx">
+      <publishTime>11/24/2016 22:38:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/28/2017 13:32:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
