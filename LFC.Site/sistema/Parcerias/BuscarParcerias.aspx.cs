@@ -75,39 +75,26 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                 }
                 // FIM //
 
-                //// FILTRO PELO AR (S/N) //
-                //if (radAR_N.Checked == true)
-                //{ listaOficios = listaOficios.Where(arEF => arEF.BTAR == false); }
-                //if (radAR_S.Checked == true)
-                //{ listaOficios = listaOficios.Where(arEF => arEF.BTAR == true); }
-                //// FIM //
+                // FILTRO PAGAMENTO DE RH (S/N) //
+                if (radPossuiPagamentoRH_N.Checked == true)
+                { listaParcerias = listaParcerias.Where(rhEF => rhEF.PossuiPagamentoRH == false).ToList(); }
+                if (radPossuiPagamentoRH_S.Checked == true)
+                { listaParcerias = listaParcerias.Where(rhEF => rhEF.PossuiPagamentoRH == true).ToList(); }
+                // FIM //
 
-                //// FILTRO PELO NÚMERO DO AR //
-                //strNumeroAR = txtNumeroAR.Text;
-                //if (strNumeroAR != "")
-                //{ listaOficios = listaOficios.Where(arEF => arEF.BTAR == true).Where(nEF => nEF.NRAR == strNumeroAR); }
-                //// FIM //
+                // FILTRO RECURSOS FINANCEIROS (S/N) //
+                if (radPossuiRecursosFinanceiros_N.Checked == true)
+                { listaParcerias = listaParcerias.Where(rfEF => rfEF.PossuiRecursosFinanceiros == false).ToList(); }
+                if (radPossuiRecursosFinanceiros_S.Checked == true)
+                { listaParcerias = listaParcerias.Where(rfEF => rfEF.PossuiRecursosFinanceiros == true).ToList(); }
+                // FIM //
 
-                //// FILTRO PELO SIGILOSO (S/N) //
-                //if (radSigiloso_N.Checked == true)
-                //{ listaDocumentos = listaDocumentos.Where(sEF => sEF.BTSigiloso == false); }
-                //if (radSigiloso_S.Checked == true)
-                //{ listaDocumentos = listaDocumentos.Where(sEF => sEF.BTSigiloso == true); }
-                //// FIM //
-
-                //// FILTRO PELO USUÁRIO //
-                //if (ddlUsuario.SelectedValue != "")
-                //{
-                //    intUsuario = Convert.ToInt32(ddlUsuario.SelectedValue);
-                //    listaDocumentos = listaDocumentos.Where(uEF => uEF.IDUsuario == intUsuario);
-                //}
-                //// FIM //
-
-                //var joined = (from Item1 in listaDocumentos
-                //              join Item2 in listaOficios
-                //              on Item1.IDDocumento equals Item2.IDDocumento
-                //              where Item1.IDEstado == SCAApplicationContext.Usuario.CodigoEstado
-                //              select new { Item1.IDDocumento }).Distinct();
+                // FILTRO VIGÊNCIA DETERMINADA (S/N) //
+                if (radPossuiVigencia_N.Checked == true)
+                { listaParcerias = listaParcerias.Where(vEF => vEF.PossuiVigencia == false).ToList(); }
+                if (radPossuiVigencia_S.Checked == true)
+                { listaParcerias = listaParcerias.Where(vEF => vEF.PossuiVigencia == true).ToList(); }
+                // FIM //
 
                 Parcerias.DataSource = listaParcerias;
                 Parcerias.DataBind();
