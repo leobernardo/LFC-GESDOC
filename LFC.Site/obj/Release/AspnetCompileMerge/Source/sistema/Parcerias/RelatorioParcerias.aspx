@@ -52,10 +52,29 @@
 
         <!-- Default box -->
         <div class="box">
-            <div class="box-header">
-                <asp:DropDownList ID="ddlAno" CssClass="form-control" Width="100" AutoPostBack="true" OnSelectedIndexChanged="selecionaAno" runat="server" /><br />
+            <div class="box-header with-border">
+                <h3 class="box-title">Preencha o formulário abaixo</h3>
             </div><!-- /.box-header -->
             <div class="box-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <asp:DropDownList ID="ddlAno" CssClass="form-control" runat="server" /><br />
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label>Possui pagamento de RH?</label><br />
+                            <label class="radio-inline">
+                                <asp:RadioButton ID="radPossuiPagamentoRH_N" GroupName="radPossuiPagamentoRH" Text="Não" runat="server" />
+                            </label>
+                            <label class="radio-inline">
+                                <asp:RadioButton ID="radPossuiPagamentoRH_S" GroupName="radPossuiPagamentoRH" Text="Sim" runat="server" />
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <asp:Button ID="btnGerarRelatorio" CssClass="btn btn-primary" Text="Gerar relatório" OnClick="GerarRelatorio" runat="server" />
+                    </div>
+                </div>
                 
                 <asp:Literal ID="litRelatorio" runat="server" />
 

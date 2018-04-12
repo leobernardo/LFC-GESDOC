@@ -47,6 +47,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -839,6 +843,7 @@
     <Content Include="gestor\MasterPages\mpGesDoc.Master" />
     <Content Include="gestor\plugins\input-mask\phone-codes\phone-be.json" />
     <Content Include="gestor\plugins\input-mask\phone-codes\phone-codes.json" />
+    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\LOCALHOST %28CASA%29.pubxml" />
     <None Include="Properties\PublishProfiles\LOCALHOST %28DNPM%29.pubxml" />
     <None Include="Properties\PublishProfiles\SITE.pubxml" />

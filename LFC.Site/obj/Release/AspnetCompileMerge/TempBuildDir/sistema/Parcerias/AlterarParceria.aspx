@@ -210,6 +210,20 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
+                                    <label>Em execução?</label><br />
+                                    <label class="radio-inline">
+                                        <asp:RadioButton ID="radEmExecucao_N" GroupName="radEmExecucao" Text="Não" Checked="true" runat="server" />
+                                    </label>
+                                    <label class="radio-inline">
+                                        <asp:RadioButton ID="radEmExecucao_S" GroupName="radEmExecucao" Text="Sim" runat="server" />
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
                                     <label>Arquivo</label>
 				                    <div class="input-group">
 					                    <span class="input-group-btn">

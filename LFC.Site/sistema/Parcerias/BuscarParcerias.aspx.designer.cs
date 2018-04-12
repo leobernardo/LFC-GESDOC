@@ -22,6 +22,42 @@ namespace LFC.GesDoc.Site.sistema.Parcerias {
         protected global::System.Web.UI.WebControls.DropDownList ddlUnidade;
         
         /// <summary>
+        /// radPossuiPagamentoRH_N control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiPagamentoRH_N;
+        
+        /// <summary>
+        /// radPossuiPagamentoRH_S control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiPagamentoRH_S;
+        
+        /// <summary>
+        /// radPossuiRecursosFinanceiros_N control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_N;
+        
+        /// <summary>
+        /// radPossuiRecursosFinanceiros_S control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_S;
+        
+        /// <summary>
         /// txtNome control.
         /// </summary>
         /// <remarks>
@@ -29,6 +65,42 @@ namespace LFC.GesDoc.Site.sistema.Parcerias {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtNome;
+        
+        /// <summary>
+        /// radPossuiVigencia_N control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiVigencia_N;
+        
+        /// <summary>
+        /// radPossuiVigencia_S control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiVigencia_S;
+        
+        /// <summary>
+        /// radEmExecucao_N control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radEmExecucao_N;
+        
+        /// <summary>
+        /// radEmExecucao_S control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radEmExecucao_S;
         
         /// <summary>
         /// ddlTipo control.
@@ -65,5 +137,14 @@ namespace LFC.GesDoc.Site.sistema.Parcerias {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater Parcerias;
+        
+        /// <summary>
+        /// btnExportarPDF control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnExportarPDF;
     }
 }

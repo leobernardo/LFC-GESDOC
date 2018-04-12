@@ -71,3 +71,15 @@ C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release
 C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.dll
 C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.pdb
 C:\Users\leonardo.bernardo\OneDrive\TI\Projetos\Via1\LFC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csproj.CoreCompileInputs.cache
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll.config
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.dll
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.DAL.pdb
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.dll
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.dll
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.dll
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.pdb
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.pdb
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.pdb
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csprojResolveAssemblyReference.cache
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.dll
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.pdb

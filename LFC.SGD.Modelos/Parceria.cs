@@ -15,6 +15,7 @@ namespace LFC.GesDoc.Modelos
         public bool PossuiVigencia { get; set; }
         public DateTime InicioVigencia { get; set; }
         public DateTime FimVigencia { get; set; }
+        public bool EmExecucao { get; set; }
         public decimal ValorPrevistoAnual { get; set; }
         public string ArquivoAnexo { get; set; }
         public string Status { get; set; }

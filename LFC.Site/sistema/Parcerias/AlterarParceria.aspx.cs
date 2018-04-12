@@ -65,6 +65,17 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                         radPossuiVigencia_N.Checked = true;
                         radPossuiVigencia_S.Checked = false;
                     }
+
+                    if (p.EmExecucao == true)
+                    {
+                        radEmExecucao_N.Checked = false;
+                        radEmExecucao_S.Checked = true;
+                    }
+                    else
+                    {
+                        radEmExecucao_N.Checked = true;
+                        radEmExecucao_S.Checked = false;
+                    }
                 }
             }
             catch (Exception)
@@ -110,6 +121,11 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                     p.InicioVigencia = Convert.ToDateTime(txtDataInicioVigencia.Text);
                     p.FimVigencia = Convert.ToDateTime(txtDataFimVigencia.Text);
                 }
+
+                if (radEmExecucao_N.Checked == true)
+                { p.EmExecucao = false; }
+                else
+                { p.EmExecucao = true; }
 
                 // CADASTRA O ARQUIVO DA PARCERIA //
                 bool blFlag = false;

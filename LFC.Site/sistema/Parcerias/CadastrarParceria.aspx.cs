@@ -71,6 +71,11 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                     p.FimVigencia = Convert.ToDateTime(txtDataFimVigencia.Text);
                 }
 
+                if (radEmExecucao_N.Checked == true)
+                { p.EmExecucao = false; }
+                else
+                { p.EmExecucao = true; }
+
                 p.ArquivoAnexo = "-";
                 p.Status = "Vigente";
 

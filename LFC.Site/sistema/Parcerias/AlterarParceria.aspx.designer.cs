@@ -184,6 +184,24 @@ namespace LFC.GesDoc.Site.sistema.Parcerias {
         protected global::System.Web.UI.WebControls.TextBox txtDataFimVigencia;
         
         /// <summary>
+        /// radEmExecucao_N control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radEmExecucao_N;
+        
+        /// <summary>
+        /// radEmExecucao_S control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radEmExecucao_S;
+        
+        /// <summary>
         /// txtArquivoParceria control.
         /// </summary>
         /// <remarks>
