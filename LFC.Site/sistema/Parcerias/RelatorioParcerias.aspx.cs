@@ -113,6 +113,13 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                     { parcerias = parcerias.Where(rh => rh.PossuiPagamentoRH == true).ToList(); }
                     // FIM //
 
+                    // FILTRO PELOS RECURSOS FINANCEIROS (S/N) //
+                    if (radPossuiRecursosFinanceiros_N.Checked == true)
+                    { parcerias = parcerias.Where(rf => rf.PossuiRecursosFinanceiros == false).ToList(); }
+                    if (radPossuiRecursosFinanceiros_S.Checked == true)
+                    { parcerias = parcerias.Where(rf => rf.PossuiRecursosFinanceiros == true).ToList(); }
+                    // FIM //
+
                     if (parcerias.Count > 0)
                     {
                         litRelatorio.Text += "<tr>";

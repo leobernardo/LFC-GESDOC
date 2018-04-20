@@ -72,6 +72,17 @@
                         </div>
                     </div>
                     <div class="col-md-2">
+                        <div class="form-group">
+                            <label>Possui recursos financeiros?</label><br />
+                            <label class="radio-inline">
+                                <asp:RadioButton ID="radPossuiRecursosFinanceiros_N" GroupName="radPossuiRecursosFinanceiros" Text="Não" runat="server" />
+                            </label>
+                            <label class="radio-inline">
+                                <asp:RadioButton ID="radPossuiRecursosFinanceiros_S" GroupName="radPossuiRecursosFinanceiros" Text="Sim" runat="server" />
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
                         <asp:Button ID="btnGerarRelatorio" CssClass="btn btn-primary" Text="Gerar relatório" OnClick="GerarRelatorio" runat="server" />
                     </div>
                 </div>

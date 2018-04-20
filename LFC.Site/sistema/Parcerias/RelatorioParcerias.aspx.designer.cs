@@ -31,6 +31,24 @@ namespace LFC.GesDoc.Site.sistema.Parcerias {
         protected global::System.Web.UI.WebControls.RadioButton radPossuiPagamentoRH_S;
         
         /// <summary>
+        /// radPossuiRecursosFinanceiros_N control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_N;
+        
+        /// <summary>
+        /// radPossuiRecursosFinanceiros_S control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_S;
+        
+        /// <summary>
         /// btnGerarRelatorio control.
         /// </summary>
         /// <remarks>

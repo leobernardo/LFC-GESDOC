@@ -34,7 +34,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/05/2018 18:33:20</publishTime>
     </File>
     <File Include="bin/LFC.GesDoc.Site.dll">
-      <publishTime>04/20/2018 08:24:25</publishTime>
+      <publishTime>04/20/2018 09:04:20</publishTime>
     </File>
     <File Include="bin/LFC.GesDoc.Site.pdb">
       <publishTime>03/05/2018 19:49:52</publishTime>
@@ -895,7 +895,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/12/2018 07:45:24</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>04/20/2018 08:31:13</publishTime>
+      <publishTime>04/20/2018 09:04:26</publishTime>
     </File>
     <File Include="sistema/bootstrap/css/bootstrap.css">
       <publishTime>05/19/2016 21:15:41</publishTime>
@@ -1441,7 +1441,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/05/2018 18:17:10</publishTime>
     </File>
     <File Include="sistema/Parcerias/RelatorioParcerias.aspx">
-      <publishTime>04/20/2018 08:31:05</publishTime>
+      <publishTime>04/20/2018 09:03:26</publishTime>
     </File>
     <File Include="sistema/Parcerias/RepassesParceria.aspx">
       <publishTime>09/15/2017 14:16:53</publishTime>
