@@ -57,9 +57,9 @@
             </div><!-- /.box-header -->
             <div class="box-body">
                 <div class="row">
-                    <div class="col-md-2">
+                    <%--<div class="col-md-2">
                         <asp:DropDownList ID="ddlAno" CssClass="form-control" runat="server" /><br />
-                    </div>
+                    </div>--%>
                     <div class="col-md-2">
                         <div class="form-group">
                             <label>Possui pagamento de RH?</label><br />
@@ -118,75 +118,9 @@
     <script src="../dist/js/demo.js"></script>
     <!-- page script -->
     <script>
-        function confirmaExclusao(sender, id) {
-            if ($(sender).attr("confirmed") == "true") { return true; }
-
-            bootbox.confirm({
-                title: 'Confirmar exclusão',
-                message: 'Você tem certeza que deseja excluir esta parceria?',
-                buttons: {
-                    'cancel': {
-                        label: 'Não',
-                        className: 'btn-primary pull-left'
-                    },
-                    'confirm': {
-                        label: 'Sim',
-                        className: 'btn-danger pull-right'
-                    }
-                },
-                callback: function (result) {
-                    if (result) {
-                        window.location.href = "ListarParcerias.aspx?act=exc&idPrc=" + id;
-                    }
-                }
-            });
-
-            return false;
-        }
-
         $(function () {
-            $('#dataTable').dataTable({
-                "bAutoWidth": false,
-                "aoColumns": [
-                    { "sWidth": "50%", "bSortable": false },
-                    { "sWidth": "20%", "bSortable": false },
-                    { "sWidth": "10%", "bSortable": false },
-                    { "sWidth": "10%", "bSortable": false },
-                    { "sWidth": "10%", "bSortable": false }
-                ],
-                "oLanguage": {
-                    "oPaginate": {
-                        "sFirst": "Primeira",
-                        "sPrevious": "Anterior",
-                        "sNext": "Próxima",
-                        "sLast": "Última"
-                    },
-                    "sProcessing": "Processando...",
-                    "sLengthMenu": "Mostrando _MENU_ registros por página",
-                    "sZeroRecords": "Registro não encontrado",
-                    "sInfo": "Mostrando _START_ até _END_ de _TOTAL_ registros",
-                    "sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
-                    "sInfoFiltered": "(filtered from _MAX_ total records)",
-                    "sSearch": "Pesquisar: "
-                }
-            });
-
-            $(".visualizarParceria").fancybox({
-                'width': 950,
-                'height': 600,
-                'padding': 10,
-                'autoScale': false,
-                'type': 'iframe',
-                autoSize: false,
-                closeClick: false,
-                openEffect: 'none',
-                closeEffect: 'none',
-                helpers: {
-                    overlay: {
-                        opacity: 0.5,
-                        css: { 'background': 'rgba(0, 0, 0, 0.5)' }
-                    }
-                }
+            $("#<%=btnGerarRelatorio.ClientID%>").click(function (e) {
+                $("#myPleaseWait").modal("show");
             });
         });
     </script>

@@ -19,9 +19,9 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                 if (!Page.IsPostBack)
                 {
                     // PREENCHE O ANO //
-                    ddlAno.DataSource = Util.preencheAno(2008, DateTime.Now.Year);
-                    ddlAno.SelectedValue = Convert.ToString(Util.ObterAno());
-                    ddlAno.DataBind();
+                    //ddlAno.DataSource = Util.preencheAno(2008, DateTime.Now.Year);
+                    //ddlAno.SelectedValue = Convert.ToString(Util.ObterAno());
+                    //ddlAno.DataBind();
                     // FIM //
 
                     //if (!string.IsNullOrEmpty(Request.QueryString["ano"]))
@@ -78,16 +78,16 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
             { throw; }
         }
 
-        protected void selecionaAno(object sender, EventArgs e)
-        {
-            try
-            {
-                if (ddlAno.Items[ddlAno.SelectedIndex].Value != "")
-                { Response.Redirect("RelatorioParcerias.aspx?ano=" + ddlAno.Items[ddlAno.SelectedIndex].Value, false); }
-            }
-            catch (Exception)
-            { throw; }
-        }
+        //protected void selecionaAno(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        if (ddlAno.Items[ddlAno.SelectedIndex].Value != "")
+        //        { Response.Redirect("RelatorioParcerias.aspx?ano=" + ddlAno.Items[ddlAno.SelectedIndex].Value, false); }
+        //    }
+        //    catch (Exception)
+        //    { throw; }
+        //}
 
         protected void GerarRelatorio(object sender, EventArgs e)
         {
@@ -128,16 +128,26 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
 
                         foreach (Parceria parceria in parcerias)
                         {
-                            litRelatorio.Text += "<tr>";
-                            litRelatorio.Text += "<td style=\"padding-left:20px;\">" + parceria.Nome + "</td>";
-
                             var repasses = (List<RepasseParceria>)rpDAL.ListarPorParceria(parceria.IdParceria);
 
                             decimal decTotalRepasses, decTotalRepassesPagos, decTotalRepassesPendentes;
-                            decTotalRepasses = repasses.Where(dEF => Convert.ToDateTime(dEF.DataRepasse).Year == Convert.ToInt32(Request.QueryString["ano"])).Sum(vEF => vEF.ValorRepasse);
-                            decTotalRepassesPagos = repasses.Where(dEF => Convert.ToDateTime(dEF.DataRepasse).Year == Convert.ToInt32(Request.QueryString["ano"])).Where(sEF => sEF.Status == "pago").Sum(vEF => vEF.ValorRepasse);
-                            decTotalRepassesPendentes = repasses.Where(dEF => Convert.ToDateTime(dEF.DataRepasse).Year == Convert.ToInt32(Request.QueryString["ano"])).Where(sEF => sEF.Status == "pendente").Sum(vEF => vEF.ValorRepasse);
 
+                            decTotalRepasses = repasses
+                                //.Where(d => Convert.ToDateTime(d.DataRepasse).Year == Convert.ToInt32(Request.QueryString["ano"]))
+                                .Sum(v => v.ValorRepasse);
+
+                            decTotalRepassesPagos = repasses
+                                //.Where(dEF => Convert.ToDateTime(dEF.DataRepasse).Year == Convert.ToInt32(Request.QueryString["ano"]))
+                                .Where(sEF => sEF.Status == "pago")
+                                .Sum(vEF => vEF.ValorRepasse);
+
+                            decTotalRepassesPendentes = repasses
+                                //.Where(dEF => Convert.ToDateTime(dEF.DataRepasse).Year == Convert.ToInt32(Request.QueryString["ano"]))
+                                .Where(sEF => sEF.Status == "pendente")
+                                .Sum(vEF => vEF.ValorRepasse);
+
+                            litRelatorio.Text += "<tr>";
+                            litRelatorio.Text += "<td style=\"padding-left:20px;\">" + parceria.Nome + "</td>";
                             litRelatorio.Text += "<td>" + String.Format("{0:C}", decTotalRepasses) + "</td>";
                             litRelatorio.Text += "<td>" + String.Format("{0:C}", decTotalRepassesPagos) + "</td>";
                             litRelatorio.Text += "<td>" + String.Format("{0:C}", decTotalRepassesPendentes) + "</td>";
