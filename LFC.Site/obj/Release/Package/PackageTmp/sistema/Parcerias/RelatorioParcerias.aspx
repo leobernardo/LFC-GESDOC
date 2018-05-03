@@ -60,6 +60,12 @@
                     <%--<div class="col-md-2">
                         <asp:DropDownList ID="ddlAno" CssClass="form-control" runat="server" /><br />
                     </div>--%>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="ddlUnidade">Unidade</label>
+                            <asp:DropDownList ID="ddlUnidade" CssClass="form-control" DataTextField="Descricao" DataValueField="IdUnidade" runat="server" />
+                        </div>
+                    </div>
                     <div class="col-md-2">
                         <div class="form-group">
                             <label>Possui pagamento de RH?</label><br />
@@ -71,7 +77,7 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="form-group">
                             <label>Possui recursos financeiros?</label><br />
                             <label class="radio-inline">
@@ -82,14 +88,48 @@
                             </label>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="ddlTipo">Tipo</label>
+                            <asp:DropDownList ID="ddlTipo" CssClass="form-control" runat="server">
+                                <asp:ListItem Text="-- TODOS --" Value="" />
+                                <asp:ListItem Text="Pública" Value="Pública" />
+                                <asp:ListItem Text="Privada" Value="Privada" />
+                            </asp:DropDownList>
+                        </div>
+                    </div>
                     <div class="col-md-2">
-                        <asp:Button ID="btnGerarRelatorio" CssClass="btn btn-primary" Text="Gerar relatório" OnClick="GerarRelatorio" runat="server" />
+                        <div class="form-group">
+                            <label>Possui vigência determinada?</label><br />
+                            <label class="radio-inline">
+                                <asp:RadioButton ID="radPossuiVigencia_N" GroupName="radPossuiVigencia" Text="Não" runat="server" />
+                            </label>
+                            <label class="radio-inline">
+                                <asp:RadioButton ID="radPossuiVigencia_S" GroupName="radPossuiVigencia" Text="Sim" runat="server" />
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label>Em execução?</label><br />
+                            <label class="radio-inline">
+                                <asp:RadioButton ID="radEmExecucao_N" GroupName="radEmExecucao" Text="Não" runat="server" />
+                            </label>
+                            <label class="radio-inline">
+                                <asp:RadioButton ID="radEmExecucao_S" GroupName="radEmExecucao" Text="Sim" runat="server" />
+                            </label>
+                        </div>
                     </div>
                 </div>
-                
-                <asp:Literal ID="litRelatorio" runat="server" />
-
             </div><!-- /.box-body -->
+            <div class="box-footer">
+                <asp:Button ID="btnGerarRelatorio" CssClass="btn btn-primary" Text="Gerar relatório" OnClick="GerarRelatorio" runat="server" />
+            </div>
+
+            <asp:Literal ID="litRelatorio" runat="server" />
+
         </div><!-- /.box -->
 
     </section><!-- /.content -->

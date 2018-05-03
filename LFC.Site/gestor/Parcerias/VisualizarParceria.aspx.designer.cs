@@ -7,117 +7,126 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LFC.GesDoc.Site.sistema.Parcerias {
+namespace LFC.GesDoc.Site.gestor.Parcerias {
     
     
-    public partial class RelatorioParcerias {
+    public partial class VisualizarParceria {
         
         /// <summary>
-        /// ddlUnidade control.
+        /// litUnidade control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlUnidade;
+        protected global::System.Web.UI.WebControls.Literal litUnidade;
         
         /// <summary>
-        /// radPossuiPagamentoRH_N control.
+        /// litNome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton radPossuiPagamentoRH_N;
+        protected global::System.Web.UI.WebControls.Literal litNome;
         
         /// <summary>
-        /// radPossuiPagamentoRH_S control.
+        /// litTipo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton radPossuiPagamentoRH_S;
+        protected global::System.Web.UI.WebControls.Literal litTipo;
         
         /// <summary>
-        /// radPossuiRecursosFinanceiros_N control.
+        /// litObjetivo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_N;
+        protected global::System.Web.UI.WebControls.Literal litObjetivo;
         
         /// <summary>
-        /// radPossuiRecursosFinanceiros_S control.
+        /// litObservacoes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_S;
+        protected global::System.Web.UI.WebControls.Literal litObservacoes;
         
         /// <summary>
-        /// ddlTipo control.
+        /// litPossuiPagamentoRH control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlTipo;
+        protected global::System.Web.UI.WebControls.Literal litPossuiPagamentoRH;
         
         /// <summary>
-        /// radPossuiVigencia_N control.
+        /// litPossuiRecursosFinanceiros control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton radPossuiVigencia_N;
+        protected global::System.Web.UI.WebControls.Literal litPossuiRecursosFinanceiros;
         
         /// <summary>
-        /// radPossuiVigencia_S control.
+        /// divValorPrevistoAnual control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton radPossuiVigencia_S;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divValorPrevistoAnual;
         
         /// <summary>
-        /// radEmExecucao_N control.
+        /// litValorPrevistoAnual control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton radEmExecucao_N;
+        protected global::System.Web.UI.WebControls.Literal litValorPrevistoAnual;
         
         /// <summary>
-        /// radEmExecucao_S control.
+        /// litPossuiVigencia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton radEmExecucao_S;
+        protected global::System.Web.UI.WebControls.Literal litPossuiVigencia;
         
         /// <summary>
-        /// btnGerarRelatorio control.
+        /// divVigencia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGerarRelatorio;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divVigencia;
         
         /// <summary>
-        /// litRelatorio control.
+        /// litVigencia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litRelatorio;
+        protected global::System.Web.UI.WebControls.Literal litVigencia;
+        
+        /// <summary>
+        /// rptRepassesParceria control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptRepassesParceria;
     }
 }

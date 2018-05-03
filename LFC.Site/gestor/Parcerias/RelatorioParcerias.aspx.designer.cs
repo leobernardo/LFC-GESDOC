@@ -10,51 +10,60 @@
 namespace LFC.GesDoc.Site.gestor.Parcerias {
     
     
-    public partial class RepassesParceria {
+    public partial class RelatorioParcerias {
         
         /// <summary>
-        /// btnCadastrarRepasseParceria control.
+        /// radPossuiPagamentoRH_N control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCadastrarRepasseParceria;
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiPagamentoRH_N;
         
         /// <summary>
-        /// rptRepassesParceria control.
+        /// radPossuiPagamentoRH_S control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptRepassesParceria;
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiPagamentoRH_S;
         
         /// <summary>
-        /// litTotalRepasses control.
+        /// radPossuiRecursosFinanceiros_N control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litTotalRepasses;
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_N;
         
         /// <summary>
-        /// litTotalRepassesPagos control.
+        /// radPossuiRecursosFinanceiros_S control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litTotalRepassesPagos;
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_S;
         
         /// <summary>
-        /// litTotalRepassesPendentes control.
+        /// btnGerarRelatorio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litTotalRepassesPendentes;
+        protected global::System.Web.UI.WebControls.Button btnGerarRelatorio;
+        
+        /// <summary>
+        /// litRelatorio control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litRelatorio;
     }
 }

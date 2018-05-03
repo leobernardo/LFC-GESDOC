@@ -86,7 +86,7 @@ namespace LFC.GesDoc.DAL
                         HttpContext.Current.Response.Redirect("Home/Default.aspx");
                     }
                     else
-                    { HttpContext.Current.Response.Write("<script language='JavaScript'>alert('E-mail ou DSSenha incorretos');history.go(-1);</script>"); }
+                    { HttpContext.Current.Response.Write("<script language='JavaScript'>alert('E-mail ou senha incorretos');history.go(-1);</script>"); }
                 }
                 catch (Exception)
                 { throw; }

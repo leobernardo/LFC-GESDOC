@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 using LFC.GesDoc.DAL;
 using LFC.GesDoc.Modelos;
@@ -28,6 +30,17 @@ namespace LFC.GesDoc.Site.gestor.Parcerias
                 rptRepassesParceria.DataSource = rpDAL.ListarPorParceria(Convert.ToInt32(Request.QueryString["idPrc"]));
                 rptRepassesParceria.DataBind();
                 // FIM //
+
+                decimal decTotalRepasses, decTotalRepassesPagos, decTotalRepassesPendentes;
+
+                var lstRepasses = (List<RepasseParceria>)rpDAL.ListarPorParceria(Convert.ToInt32(Request.QueryString["idPrc"]));
+                decTotalRepasses = lstRepasses.Sum(vEF => vEF.ValorRepasse);
+                decTotalRepassesPagos = lstRepasses.Where(sEF => sEF.Status == "pago").Sum(vEF => vEF.ValorRepasse);
+                decTotalRepassesPendentes = lstRepasses.Where(sEF => sEF.Status == "pendente").Sum(vEF => vEF.ValorRepasse);
+
+                litTotalRepasses.Text = String.Format("{0:0.00}", decTotalRepasses);
+                litTotalRepassesPagos.Text = String.Format("{0:0.00}", decTotalRepassesPagos);
+                litTotalRepassesPendentes.Text = String.Format("{0:0.00}", decTotalRepassesPendentes);
             }
             catch (Exception)
             { throw; }

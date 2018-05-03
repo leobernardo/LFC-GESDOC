@@ -48,13 +48,34 @@ namespace LFC.GesDoc.Site.gestor.Parcerias
                 { p.PossuiPagamentoRH = true; }
 
                 if (radPossuiRecursosFinanceiros_N.Checked == true)
-                { p.PossuiRecursosFinanceiros = false; }
+                {
+                    p.PossuiRecursosFinanceiros = false;
+                    p.ValorPrevistoAnual = 0;
+                }
                 else
-                { p.PossuiRecursosFinanceiros = true; }
+                {
+                    p.PossuiRecursosFinanceiros = true;
+                    p.ValorPrevistoAnual = Convert.ToDecimal(txtValorPrevistoAnual.Text);
+                }
 
-                p.InicioVigencia = Convert.ToDateTime(txtDataInicioVigencia.Text);
-                p.FimVigencia = Convert.ToDateTime(txtDataFimVigencia.Text);
-                p.ValorPrevistoAnual = Convert.ToDecimal(txtValorPrevistoAnual.Text);
+                if (radPossuiVigencia_N.Checked == true)
+                {
+                    p.PossuiVigencia = false;
+                    p.InicioVigencia = new DateTime(1900, 1, 1);
+                    p.FimVigencia = new DateTime(1900, 1, 1);
+                }
+                else
+                {
+                    p.PossuiVigencia = true;
+                    p.InicioVigencia = Convert.ToDateTime(txtDataInicioVigencia.Text);
+                    p.FimVigencia = Convert.ToDateTime(txtDataFimVigencia.Text);
+                }
+
+                if (radEmExecucao_N.Checked == true)
+                { p.EmExecucao = false; }
+                else
+                { p.EmExecucao = true; }
+
                 p.ArquivoAnexo = "-";
                 p.Status = "Vigente";
 

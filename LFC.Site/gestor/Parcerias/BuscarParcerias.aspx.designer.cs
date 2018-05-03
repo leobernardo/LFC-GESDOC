@@ -10,16 +10,7 @@
 namespace LFC.GesDoc.Site.gestor.Parcerias {
     
     
-    public partial class AlterarParceria {
-        
-        /// <summary>
-        /// rfvUnidade control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvUnidade;
+    public partial class BuscarParcerias {
         
         /// <summary>
         /// ddlUnidade control.
@@ -29,78 +20,6 @@ namespace LFC.GesDoc.Site.gestor.Parcerias {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlUnidade;
-        
-        /// <summary>
-        /// rfvNome control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNome;
-        
-        /// <summary>
-        /// txtNome control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNome;
-        
-        /// <summary>
-        /// rfvTipo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTipo;
-        
-        /// <summary>
-        /// ddlTipo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlTipo;
-        
-        /// <summary>
-        /// rfvObjetivo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvObjetivo;
-        
-        /// <summary>
-        /// txtObjetivo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtObjetivo;
-        
-        /// <summary>
-        /// rfvObservacoes control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvObservacoes;
-        
-        /// <summary>
-        /// txtObservacoes control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtObservacoes;
         
         /// <summary>
         /// radPossuiPagamentoRH_N control.
@@ -139,13 +58,13 @@ namespace LFC.GesDoc.Site.gestor.Parcerias {
         protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_S;
         
         /// <summary>
-        /// txtValorPrevistoAnual control.
+        /// txtNome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtValorPrevistoAnual;
+        protected global::System.Web.UI.WebControls.TextBox txtNome;
         
         /// <summary>
         /// radPossuiVigencia_N control.
@@ -166,24 +85,6 @@ namespace LFC.GesDoc.Site.gestor.Parcerias {
         protected global::System.Web.UI.WebControls.RadioButton radPossuiVigencia_S;
         
         /// <summary>
-        /// txtDataInicioVigencia control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDataInicioVigencia;
-        
-        /// <summary>
-        /// txtDataFimVigencia control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDataFimVigencia;
-        
-        /// <summary>
         /// radEmExecucao_N control.
         /// </summary>
         /// <remarks>
@@ -202,30 +103,48 @@ namespace LFC.GesDoc.Site.gestor.Parcerias {
         protected global::System.Web.UI.WebControls.RadioButton radEmExecucao_S;
         
         /// <summary>
-        /// txtArquivoParceria control.
+        /// ddlTipo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload txtArquivoParceria;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTipo;
         
         /// <summary>
-        /// txtNomeArquivo control.
+        /// btnBuscar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNomeArquivo;
+        protected global::System.Web.UI.WebControls.Button btnBuscar;
         
         /// <summary>
-        /// btnAlterar control.
+        /// divResultadoBusca control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAlterar;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divResultadoBusca;
+        
+        /// <summary>
+        /// Parcerias control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater Parcerias;
+        
+        /// <summary>
+        /// btnExportarPDF control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnExportarPDF;
     }
 }

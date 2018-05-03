@@ -43,6 +43,8 @@ namespace LFC.GesDoc.Site.gestor.Parcerias
                     {
                         radPossuiRecursosFinanceiros_N.Checked = false;
                         radPossuiRecursosFinanceiros_S.Checked = true;
+
+                        txtValorPrevistoAnual.Text = String.Format("{0:0.00}", p.ValorPrevistoAnual);
                     }
                     else
                     {
@@ -50,9 +52,30 @@ namespace LFC.GesDoc.Site.gestor.Parcerias
                         radPossuiRecursosFinanceiros_S.Checked = false;
                     }
 
-                    txtDataInicioVigencia.Text = p.InicioVigencia.ToShortDateString();
-                    txtDataFimVigencia.Text = p.FimVigencia.ToShortDateString();
-                    txtValorPrevistoAnual.Text = String.Format("{0:0.00}", p.ValorPrevistoAnual);
+                    if (p.PossuiVigencia == true)
+                    {
+                        radPossuiVigencia_N.Checked = false;
+                        radPossuiVigencia_S.Checked = true;
+
+                        txtDataInicioVigencia.Text = p.InicioVigencia.ToShortDateString();
+                        txtDataFimVigencia.Text = p.FimVigencia.ToShortDateString();
+                    }
+                    else
+                    {
+                        radPossuiVigencia_N.Checked = true;
+                        radPossuiVigencia_S.Checked = false;
+                    }
+
+                    if (p.EmExecucao == true)
+                    {
+                        radEmExecucao_N.Checked = false;
+                        radEmExecucao_S.Checked = true;
+                    }
+                    else
+                    {
+                        radEmExecucao_N.Checked = true;
+                        radEmExecucao_S.Checked = false;
+                    }
                 }
             }
             catch (Exception)
@@ -80,13 +103,29 @@ namespace LFC.GesDoc.Site.gestor.Parcerias
                 { p.PossuiPagamentoRH = true; }
 
                 if (radPossuiRecursosFinanceiros_N.Checked == true)
-                { p.PossuiRecursosFinanceiros = false; }
+                {
+                    p.PossuiRecursosFinanceiros = false;
+                    p.ValorPrevistoAnual = 0;
+                }
                 else
-                { p.PossuiRecursosFinanceiros = true; }
+                {
+                    p.PossuiRecursosFinanceiros = true;
+                    p.ValorPrevistoAnual = Convert.ToDecimal(txtValorPrevistoAnual.Text);
+                }
 
-                p.InicioVigencia = Convert.ToDateTime(txtDataInicioVigencia.Text);
-                p.FimVigencia = Convert.ToDateTime(txtDataFimVigencia.Text);
-                p.ValorPrevistoAnual = Convert.ToDecimal(txtValorPrevistoAnual.Text);
+                if (radPossuiVigencia_N.Checked == true)
+                { p.PossuiVigencia = false; }
+                else
+                {
+                    p.PossuiVigencia = true;
+                    p.InicioVigencia = Convert.ToDateTime(txtDataInicioVigencia.Text);
+                    p.FimVigencia = Convert.ToDateTime(txtDataFimVigencia.Text);
+                }
+
+                if (radEmExecucao_N.Checked == true)
+                { p.EmExecucao = false; }
+                else
+                { p.EmExecucao = true; }
 
                 // CADASTRA O ARQUIVO DA PARCERIA //
                 bool blFlag = false;
@@ -103,6 +142,7 @@ namespace LFC.GesDoc.Site.gestor.Parcerias
                             {
                                 string strNome;
                                 strNome = p.IdParceria + txtArquivoParceria.FileName.Substring(txtArquivoParceria.FileName.Length - 4);
+                                p.ArquivoAnexo = strNome;
                                 txtArquivoParceria.SaveAs(Server.MapPath(@"../../arquivos/parcerias/") + strNome);
                             }
 

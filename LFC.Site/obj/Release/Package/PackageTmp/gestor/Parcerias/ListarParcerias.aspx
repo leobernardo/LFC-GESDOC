@@ -71,7 +71,7 @@
                     <asp:Repeater ID="Parcerias" runat="server">
                         <ItemTemplate>
                             <tr>
-                                <td><%#Eval("Nome")%></td>
+                                <td><a href="VisualizarParceria.aspx?idPrc=<%#Eval("IdParceria")%>" data-toggle="tooltip" data-placement="top" title="Visualizar Parceria" class="visualizarParceria"><%#Eval("Nome")%></a></td>
                                 <td><%#getRecursosFinanceiros(Convert.ToBoolean(Eval("PossuiRecursosFinanceiros")))%></td>
                                 <td><%#getVigente(Convert.ToBoolean(Eval("PossuiVigencia")), Convert.ToDateTime(Eval("FimVigencia")))%></td>
                                 <td><%#getArquivo(Convert.ToString(Eval("ArquivoAnexo")))%></td>
@@ -102,6 +102,9 @@
     <!-- DataTables -->
     <script src="../plugins/datatables/jquery.dataTables.min.js"></script>
     <script src="../plugins/datatables/dataTables.bootstrap.min.js"></script>
+
+    <!-- Fancybox -->
+    <script src="../plugins/fancybox/jquery.fancybox.js?v=2.1.5"></script>
 
     <!-- Bootbox -->
     <script src="../plugins/bootbox/bootbox.min.js"></script>
@@ -148,7 +151,9 @@
             $('#dataTable').dataTable({
                 "bAutoWidth": false,
                 "aoColumns": [
-                    { "sWidth": "80%", "bSortable": false },
+                    { "sWidth": "50%", "bSortable": false },
+                    { "sWidth": "20%", "bSortable": false },
+                    { "sWidth": "10%", "bSortable": false },
                     { "sWidth": "10%", "bSortable": false },
                     { "sWidth": "10%", "bSortable": false }
                 ],
@@ -166,6 +171,24 @@
                     "sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
                     "sInfoFiltered": "(filtered from _MAX_ total records)",
                     "sSearch": "Pesquisar: "
+                }
+            });
+
+            $(".visualizarParceria").fancybox({
+                'width': 950,
+                'height': 600,
+                'padding': 10,
+                'autoScale': false,
+                'type': 'iframe',
+                autoSize: false,
+                closeClick: false,
+                openEffect: 'none',
+                closeEffect: 'none',
+                helpers: {
+                    overlay: {
+                        opacity: 0.5,
+                        css: { 'background': 'rgba(0, 0, 0, 0.5)' }
+                    }
                 }
             });
         });

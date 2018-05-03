@@ -76,9 +76,11 @@
     <Content Include="gestor\bootstrap\js\npm.js" />
     <Content Include="gestor\Parcerias\AlterarParceria.aspx" />
     <Content Include="gestor\Parcerias\AlterarRepasseParceria.aspx" />
+    <Content Include="gestor\Parcerias\BuscarParcerias.aspx" />
     <Content Include="gestor\Parcerias\CadastrarParceria.aspx" />
     <Content Include="gestor\Parcerias\CadastrarRepasseParceria.aspx" />
     <Content Include="gestor\Parcerias\ListarParcerias.aspx" />
+    <Content Include="gestor\Parcerias\RelatorioParcerias.aspx" />
     <Content Include="gestor\Parcerias\RepassesParceria.aspx" />
     <Content Include="gestor\dist\css\AdminLTE.css" />
     <Content Include="gestor\dist\css\AdminLTE.min.css" />
@@ -153,6 +155,7 @@
     <Content Include="gestor\Documentos\ListarDocumentos.aspx" />
     <Content Include="gestor\Home\Default.aspx" />
     <Content Include="gestor\Login.aspx" />
+    <Content Include="gestor\Parcerias\VisualizarParceria.aspx" />
     <Content Include="gestor\plugins\bootbox\bootbox.min.js" />
     <Content Include="gestor\plugins\datatables\dataTables.bootstrap.css" />
     <Content Include="gestor\plugins\datatables\dataTables.bootstrap.js" />
@@ -365,6 +368,13 @@
     <Compile Include="gestor\Parcerias\AlterarRepasseParceria.aspx.designer.cs">
       <DependentUpon>AlterarRepasseParceria.aspx</DependentUpon>
     </Compile>
+    <Compile Include="gestor\Parcerias\BuscarParcerias.aspx.cs">
+      <DependentUpon>BuscarParcerias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Parcerias\BuscarParcerias.aspx.designer.cs">
+      <DependentUpon>BuscarParcerias.aspx</DependentUpon>
+    </Compile>
     <Compile Include="gestor\Parcerias\CadastrarParceria.aspx.cs">
       <DependentUpon>CadastrarParceria.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -385,6 +395,13 @@
     </Compile>
     <Compile Include="gestor\Parcerias\ListarParcerias.aspx.designer.cs">
       <DependentUpon>ListarParcerias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Parcerias\RelatorioParcerias.aspx.cs">
+      <DependentUpon>RelatorioParcerias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Parcerias\RelatorioParcerias.aspx.designer.cs">
+      <DependentUpon>RelatorioParcerias.aspx</DependentUpon>
     </Compile>
     <Compile Include="gestor\Parcerias\RepassesParceria.aspx.cs">
       <DependentUpon>RepassesParceria.aspx</DependentUpon>
@@ -434,6 +451,13 @@
     </Compile>
     <Compile Include="gestor\MasterPages\mpGesDoc.Master.designer.cs">
       <DependentUpon>mpGesDoc.Master</DependentUpon>
+    </Compile>
+    <Compile Include="gestor\Parcerias\VisualizarParceria.aspx.cs">
+      <DependentUpon>VisualizarParceria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestor\Parcerias\VisualizarParceria.aspx.designer.cs">
+      <DependentUpon>VisualizarParceria.aspx</DependentUpon>
     </Compile>
     <Compile Include="gestor\Processos\AlterarProcesso.aspx.cs">
       <DependentUpon>AlterarProcesso.aspx</DependentUpon>

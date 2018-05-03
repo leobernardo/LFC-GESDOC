@@ -81,6 +81,47 @@
             </div><!-- /.box-body -->
         </div><!-- /.box -->
 
+        <div class="row">
+            <div class="col-lg-4 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3><asp:Literal ID="litTotalRepasses" runat="server" /></h3>
+                        <p>Total de repasses</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-dollar"></i>
+                    </div>
+                </div>
+            </div><!-- ./col -->
+
+            <div class="col-lg-4 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3><asp:Literal ID="litTotalRepassesPagos" runat="server" /></h3>
+                        <p>Repasses pagos</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-dollar"></i>
+                    </div>
+                </div>
+            </div><!-- ./col -->
+
+            <div class="col-lg-4 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3><asp:Literal ID="litTotalRepassesPendentes" runat="server" /></h3>
+                        <p>Repasses pendentes</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-dollar"></i>
+                    </div>
+                </div>
+            </div><!-- ./col -->
+        </div><!-- /.row -->
+
     </section><!-- /.content -->
 
     </form>

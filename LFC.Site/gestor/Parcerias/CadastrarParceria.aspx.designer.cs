@@ -139,13 +139,31 @@ namespace LFC.GesDoc.Site.gestor.Parcerias {
         protected global::System.Web.UI.WebControls.RadioButton radPossuiRecursosFinanceiros_S;
         
         /// <summary>
-        /// rfvDataInicioVigencia control.
+        /// txtValorPrevistoAnual control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDataInicioVigencia;
+        protected global::System.Web.UI.WebControls.TextBox txtValorPrevistoAnual;
+        
+        /// <summary>
+        /// radPossuiVigencia_N control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiVigencia_N;
+        
+        /// <summary>
+        /// radPossuiVigencia_S control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radPossuiVigencia_S;
         
         /// <summary>
         /// txtDataInicioVigencia control.
@@ -157,15 +175,6 @@ namespace LFC.GesDoc.Site.gestor.Parcerias {
         protected global::System.Web.UI.WebControls.TextBox txtDataInicioVigencia;
         
         /// <summary>
-        /// rfvDataFimVigencia control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDataFimVigencia;
-        
-        /// <summary>
         /// txtDataFimVigencia control.
         /// </summary>
         /// <remarks>
@@ -175,22 +184,22 @@ namespace LFC.GesDoc.Site.gestor.Parcerias {
         protected global::System.Web.UI.WebControls.TextBox txtDataFimVigencia;
         
         /// <summary>
-        /// rfvValorPrevistoAnual control.
+        /// radEmExecucao_N control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvValorPrevistoAnual;
+        protected global::System.Web.UI.WebControls.RadioButton radEmExecucao_N;
         
         /// <summary>
-        /// txtValorPrevistoAnual control.
+        /// radEmExecucao_S control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtValorPrevistoAnual;
+        protected global::System.Web.UI.WebControls.RadioButton radEmExecucao_S;
         
         /// <summary>
         /// txtArquivoParceria control.

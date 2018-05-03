@@ -103,7 +103,7 @@ namespace LFC.GesDoc.Site.gestor.Parcerias
                     { return "<span class=\"label label-danger\">Não</span>"; }
                 }
                 else
-                { return "<span class=\"label label-danger\">N/D</span>"; }
+                { return "<span class=\"label label-primary\">N/D</span>"; }
             }
             catch (Exception)
             { throw; }
@@ -129,9 +129,13 @@ namespace LFC.GesDoc.Site.gestor.Parcerias
                 string strOpcoes = "";
 
                 ParceriaDAL pDAL = new ParceriaDAL();
+                Parceria p = pDAL.ObterDadosPorId(_IdParceria);
 
                 strOpcoes += "<a href=\"../../arquivos/parcerias/" + _IdParceria + ".pdf\" target=\"_blank\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Visualizar Arquivo do Parceria\"><i class=\"fa fa-search\" style=\"margin-right:10px\"></i></a>";
-                strOpcoes += "<a href=\"RepassesParceria.aspx?idPrc=" + _IdParceria + "\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Repasses da Parceria\"><i class=\"fa fa-dollar\" style=\"margin-right:10px\"></i></a>";
+
+                if (p.PossuiRecursosFinanceiros)
+                { strOpcoes += "<a href=\"RepassesParceria.aspx?idPrc=" + _IdParceria + "\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Repasses da Parceria\"><i class=\"fa fa-dollar\" style=\"margin-right:10px\"></i></a>"; }
+
                 strOpcoes += "<a href=\"AlterarParceria.aspx?idPrc=" + _IdParceria + "\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Alterar Parceria\"><i class=\"fa fa-edit\" style=\"margin-right:10px\"></i></a>";
                 strOpcoes += "<a href=\"#\" onclick=\"return confirmaExclusao(this, " + _IdParceria + ");\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Excluir Parceria\"><i class=\"fa fa-trash\"></i></a>";
 

@@ -86,6 +86,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -94,6 +95,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -106,6 +108,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -114,6 +117,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -122,6 +126,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -135,6 +140,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -148,10 +154,35 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div id="divValorPrevistoAnual" class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="txtValorPrevistoAnual">Valor previsto anual(R$)</label>
+                                    <asp:TextBox ID="txtValorPrevistoAnual" CssClass="form-control" runat="server" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Possui vigência determinada?</label><br />
+                                    <label class="radio-inline">
+                                        <asp:RadioButton ID="radPossuiVigencia_N" GroupName="radPossuiVigencia" Text="Não" Checked="true" runat="server" />
+                                    </label>
+                                    <label class="radio-inline">
+                                        <asp:RadioButton ID="radPossuiVigencia_S" GroupName="radPossuiVigencia" Text="Sim" runat="server" />
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="divVigencia">
                         <div class="row">
                             <div class="col-md-2">
                                 <div class="form-group">
-                                    <label for="<%=txtDataInicioVigencia.ClientID%>">Início da vigência <asp:RequiredFieldValidator ID="rfvDataInicioVigencia" ErrorMessage="<font style='color:red;'>*</font>" ControlToValidate="txtDataInicioVigencia" SetFocusOnError="True" runat="server" /></label>
+                                    <label for="<%=txtDataInicioVigencia.ClientID%>">Início da vigência</label>
                                     <div class="input-group">
                                         <div class="input-group-addon">
                                             <i class="fa fa-calendar"></i>
@@ -164,7 +195,7 @@
                         <div class="row">
                             <div class="col-md-2">
                                 <div class="form-group">
-                                    <label for="<%=txtDataFimVigencia.ClientID%>">Fim da vigência <asp:RequiredFieldValidator ID="rfvDataFimVigencia" ErrorMessage="<font style='color:red;'>*</font>" ControlToValidate="txtDataFimVigencia" SetFocusOnError="True" runat="server" /></label>
+                                    <label for="<%=txtDataFimVigencia.ClientID%>">Fim da vigência</label>
                                     <div class="input-group">
                                         <div class="input-group-addon">
                                             <i class="fa fa-calendar"></i>
@@ -174,14 +205,22 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="txtValorPrevistoAnual">Valor previsto anual(R$) <asp:RequiredFieldValidator ID="rfvValorPrevistoAnual" ErrorMessage="<font style='color:red;'>*</font>" ControlToValidate="txtValorPrevistoAnual" SetFocusOnError="True" runat="server" /></label>
-                                    <asp:TextBox ID="txtValorPrevistoAnual" CssClass="form-control" runat="server" />
+                                    <label>Em execução?</label><br />
+                                    <label class="radio-inline">
+                                        <asp:RadioButton ID="radEmExecucao_N" GroupName="radEmExecucao" Text="Não" Checked="true" runat="server" />
+                                    </label>
+                                    <label class="radio-inline">
+                                        <asp:RadioButton ID="radEmExecucao_S" GroupName="radEmExecucao" Text="Sim" runat="server" />
+                                    </label>
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -237,8 +276,7 @@
     <script src="../dist/js/demo.js"></script>
     <!-- page script -->
     <script>
-        $(function () {
-            $(document).on('change', '.btn-file :file', function () {
+        $(document).on('change', '.btn-file :file', function () {
             var input = $(this),
 			numFiles = input.get(0).files ? input.get(0).files.length : 1,
 			label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
@@ -246,6 +284,9 @@
         });
 
         $(function () {
+            $('#divVigencia').show();
+            $('#divValorPrevistoAnual').show();
+
             $("#<%=txtDataInicioVigencia.ClientID%>").datepicker({ format: "dd/mm/yyyy", language: "pt-BR" });
             $("#<%=txtDataFimVigencia.ClientID%>").datepicker({ format: "dd/mm/yyyy", language: "pt-BR" });
 
@@ -261,7 +302,22 @@
                     if (log) alert(log);
                 }
             });
-        });
+
+            $('#<%=radPossuiRecursosFinanceiros_N.ClientID%>').click(function () {
+                $('#divValorPrevistoAnual').hide();
+            });
+
+            $('#<%=radPossuiRecursosFinanceiros_S.ClientID%>').click(function () {
+                $('#divValorPrevistoAnual').show();
+            });
+
+            $('#<%=radPossuiVigencia_N.ClientID%>').click(function () {
+                $('#divVigencia').hide();
+            });
+
+            $('#<%=radPossuiVigencia_S.ClientID%>').click(function () {
+                $('#divVigencia').show();
+            });
         });
     </script>
 
