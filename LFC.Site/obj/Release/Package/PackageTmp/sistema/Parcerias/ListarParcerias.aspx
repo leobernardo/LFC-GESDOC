@@ -61,6 +61,7 @@
                 <thead>
                     <tr>
                         <th>Nome</th>
+                        <th>Em execução</th>
                         <th>Recursos financeiro</th>
                         <th>Vigente</th>
                         <th>Arquivo</th>
@@ -72,6 +73,7 @@
                         <ItemTemplate>
                             <tr>
                                 <td><a href="VisualizarParceria.aspx?idPrc=<%#Eval("IdParceria")%>" data-toggle="tooltip" data-placement="top" title="Visualizar Parceria" class="visualizarParceria"><%#Eval("Nome")%></a></td>
+                                <td><%#getEmExecucao(Convert.ToBoolean(Eval("EmExecucao")))%></td>
                                 <td><%#getRecursosFinanceiros(Convert.ToBoolean(Eval("PossuiRecursosFinanceiros")))%></td>
                                 <td><%#getVigente(Convert.ToBoolean(Eval("PossuiVigencia")), Convert.ToDateTime(Eval("FimVigencia")))%></td>
                                 <td><%#getArquivo(Convert.ToString(Eval("ArquivoAnexo")))%></td>

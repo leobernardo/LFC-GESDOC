@@ -78,6 +78,19 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
             { throw; }
         }
 
+        protected string getEmExecucao(bool _EmExecucao)
+        {
+            try
+            {
+                if (_EmExecucao)
+                { return "<span class=\"label label-success\">Sim</span>"; }
+                else
+                { return "<span class=\"label label-danger\">Não</span>"; }
+            }
+            catch (Exception)
+            { throw; }
+        }
+
         protected string getRecursosFinanceiros(bool _PossuiRecursosFinanceiros)
         {
             try

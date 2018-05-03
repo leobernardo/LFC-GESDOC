@@ -27,6 +27,11 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                     litObjetivo.Text = p.Objetivo;
                     litObservacoes.Text = p.Observacoes;
 
+                    if (p.EmExecucao)
+                    { litEmExecucao.Text = "<span class=\"label label-success\">Sim</span>"; }
+                    else
+                    { litEmExecucao.Text = "<span class=\"label label-danger\">Não</span>"; }
+
                     if (p.PossuiPagamentoRH)
                     { litPossuiPagamentoRH.Text =  "<span class=\"label label-success\">Sim</span>"; }
                     else

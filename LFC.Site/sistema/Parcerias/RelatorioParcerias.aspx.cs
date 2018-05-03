@@ -212,7 +212,7 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                                 .Sum(vEF => vEF.ValorRepasse);
 
                             litRelatorio.Text += "<tr>";
-                            litRelatorio.Text += "<td style=\"padding-left:20px;\">" + parceria.Nome + "</td>";
+                            litRelatorio.Text += "<td style=\"padding-left:20px;\"><a href=\"VisualizarParceria.aspx?idPrc=" + parceria.IdParceria + "\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Visualizar Parceria\" class=\"visualizarParceria\">" + parceria.Nome + "</a></td>";
 
                             if (parceria.PossuiRecursosFinanceiros)
                             { litRelatorio.Text += "<td>" + String.Format("{0:C}", parceria.ValorPrevistoAnual) + "</td>"; }

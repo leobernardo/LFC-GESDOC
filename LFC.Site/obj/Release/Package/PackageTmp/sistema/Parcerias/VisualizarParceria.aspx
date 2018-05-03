@@ -49,22 +49,32 @@
                             <label>Unidade</label><br />
                             <asp:Literal ID="litUnidade" runat="server" />
                         </div>
+                        
                         <div class="form-group">
                             <label>Nome</label><br />
                             <asp:Literal ID="litNome" runat="server" />
                         </div>
+                        
                         <div class="form-group">
                             <label>Tipo</label><br />
                             <asp:Literal ID="litTipo" runat="server" />
                         </div>
+                        
                         <div class="form-group">
                             <label>Objetivo</label><br />
                             <asp:Literal ID="litObjetivo" runat="server" />
                         </div>
+                        
                         <div class="form-group">
                             <label>Observações</label><br />
                             <asp:Literal ID="litObservacoes" runat="server" />
                         </div>
+
+                        <div class="form-group">
+                            <label>Em execução?</label><br />
+                            <asp:Literal ID="litEmExecucao" runat="server" />
+                        </div>
+                        
                         <div class="form-group">
                             <label>Possui pagamento de RH?</label><br />
                             <asp:Literal ID="litPossuiPagamentoRH" runat="server" />

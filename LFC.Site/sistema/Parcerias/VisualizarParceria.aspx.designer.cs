@@ -58,6 +58,15 @@ namespace LFC.GesDoc.Site.sistema.Parcerias {
         protected global::System.Web.UI.WebControls.Literal litObservacoes;
         
         /// <summary>
+        /// litEmExecucao control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litEmExecucao;
+        
+        /// <summary>
         /// litPossuiPagamentoRH control.
         /// </summary>
         /// <remarks>

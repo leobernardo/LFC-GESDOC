@@ -173,6 +173,24 @@
             $("#<%=btnGerarRelatorio.ClientID%>").click(function (e) {
                 $("#myPleaseWait").modal("show");
             });
+
+            $(".visualizarParceria").fancybox({
+                'width': 950,
+                'height': 600,
+                'padding': 10,
+                'autoScale': false,
+                'type': 'iframe',
+                autoSize: false,
+                closeClick: false,
+                openEffect: 'none',
+                closeEffect: 'none',
+                helpers: {
+                    overlay: {
+                        opacity: 0.5,
+                        css: { 'background': 'rgba(0, 0, 0, 0.5)' }
+                    }
+                }
+            });
         });
     </script>
 
