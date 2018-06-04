@@ -34,10 +34,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/04/2018 13:27:28</publishTime>
     </File>
     <File Include="bin/LFC.GesDoc.Site.dll">
-      <publishTime>06/04/2018 14:29:32</publishTime>
+      <publishTime>06/04/2018 16:09:52</publishTime>
     </File>
     <File Include="bin/LFC.GesDoc.Site.pdb">
-      <publishTime>06/04/2018 14:29:32</publishTime>
+      <publishTime>06/04/2018 16:09:52</publishTime>
     </File>
     <File Include="bin/LFC.GesDoc.Util.dll">
       <publishTime>06/04/2018 13:27:49</publishTime>
@@ -904,7 +904,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/04/2018 13:27:55</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>06/04/2018 14:29:33</publishTime>
+      <publishTime>06/04/2018 16:09:53</publishTime>
     </File>
     <File Include="sistema/bootstrap/css/bootstrap.css">
       <publishTime>06/04/2018 13:27:56</publishTime>
