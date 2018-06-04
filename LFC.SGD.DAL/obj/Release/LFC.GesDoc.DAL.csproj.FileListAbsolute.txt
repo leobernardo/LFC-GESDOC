@@ -80,6 +80,8 @@ C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.
 C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Interfaces.pdb
 C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Modelos.pdb
 C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\bin\Release\LFC.GesDoc.Util.pdb
-C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csprojResolveAssemblyReference.cache
 C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.dll
 C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.pdb
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csprojAssemblyReference.cache
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csproj.CoreCompileInputs.cache
+C:\Users\leonardo.bernardo\Source\GITHUB\LFC-GESDOC\LFC.SGD.DAL\obj\Release\LFC.GesDoc.DAL.csproj.CopyComplete

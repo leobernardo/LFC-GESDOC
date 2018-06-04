@@ -187,8 +187,9 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                         litRelatorio.Text += "<td style=\"width:40%;\"><b>Nome</b></td>";
                         litRelatorio.Text += "<td style=\"width:15%;\"><b>Valor previsto anual(R$)</b></td>";
                         litRelatorio.Text += "<td style=\"width:15%;\"><b>Vigência</b></td>";
+                        litRelatorio.Text += "<td style=\"width:15%;\"><b>Valor previsto anual(R$)</b></td>";
                         litRelatorio.Text += "<td style=\"width:15%;\"><b>Total de repasses</b></td>";
-                        litRelatorio.Text += "<td style=\"width:15%;\"><b>Repasses pagos</b></td>";
+                        //litRelatorio.Text += "<td style=\"width:15%;\"><b>Repasses pagos</b></td>";
                         litRelatorio.Text += "</tr>";
 
                         foreach (Parceria parceria in parcerias)
@@ -224,8 +225,9 @@ namespace LFC.GesDoc.Site.sistema.Parcerias
                             else
                             { litRelatorio.Text += "<td>-</td>"; }
 
+                            litRelatorio.Text += "<td>" + String.Format("{0:C}", parceria.ValorPrevistoAnual) + "</td>";
                             litRelatorio.Text += "<td>" + String.Format("{0:C}", decTotalRepasses) + "</td>";
-                            litRelatorio.Text += "<td>" + String.Format("{0:C}", decTotalRepassesPagos) + "</td>";
+                            //litRelatorio.Text += "<td>" + String.Format("{0:C}", decTotalRepassesPagos) + "</td>";
                             //litRelatorio.Text += "<td>" + String.Format("{0:C}", decTotalRepassesPendentes) + "</td>";
                             litRelatorio.Text += "</tr>";
                         }

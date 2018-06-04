@@ -239,7 +239,7 @@ namespace LFC.GesDoc.DAL
 
                     IList lst = new List<Parceria>();
 
-                    SqlCommand cmd = new SqlCommand("SELECT IDParceria,IDUnidade,NMParceria,DSTipo,DSObjetivo,DSObservacoes,BTPossuiPagamentoRH,BTPossuiRecursosFinanceiros,BTPossuiVigencia,DTInicioVigencia,DTFimVigencia,BTEmExecucao,DSArquivoAnexo,DSStatus FROM TB_Parceria", objConn);
+                    SqlCommand cmd = new SqlCommand("SELECT IDParceria,IDUnidade,NMParceria,DSTipo,DSObjetivo,DSObservacoes,BTPossuiPagamentoRH,BTPossuiRecursosFinanceiros,BTPossuiVigencia,DTInicioVigencia,DTFimVigencia,BTEmExecucao,VLPrevistoAnual,DSArquivoAnexo,DSStatus FROM TB_Parceria", objConn);
                     SqlDataReader dr = cmd.ExecuteReader();
 
                     while (dr.Read())
@@ -259,6 +259,7 @@ namespace LFC.GesDoc.DAL
                                     InicioVigencia = Convert.ToDateTime(dr["DTInicioVigencia"]),
                                     FimVigencia = Convert.ToDateTime(dr["DTFimVigencia"]),
                                     EmExecucao = Convert.ToBoolean(dr["BTEmExecucao"]),
+                                    ValorPrevistoAnual = Convert.ToDecimal(dr["VLPrevistoAnual"]),
                                     ArquivoAnexo = dr["DSArquivoAnexo"].ToString(),
                                     Status = dr["DSStatus"].ToString()
                                 }
@@ -286,7 +287,7 @@ namespace LFC.GesDoc.DAL
 
                     IList lst = new List<Parceria>();
 
-                    SqlCommand cmd = new SqlCommand("SELECT IDParceria,IDUnidade,NMParceria,DSObjetivo,DSObservacoes,BTPossuiPagamentoRH,BTPossuiRecursosFinanceiros,BTPossuiVigencia,DTInicioVigencia,DTFimVigencia,BTEmExecucao,DSArquivoAnexo,DSStatus FROM TB_Parceria WHERE IDUnidade = " + _IdUnidade, objConn);
+                    SqlCommand cmd = new SqlCommand("SELECT IDParceria,IDUnidade,NMParceria,DSObjetivo,DSObservacoes,BTPossuiPagamentoRH,BTPossuiRecursosFinanceiros,BTPossuiVigencia,DTInicioVigencia,DTFimVigencia,BTEmExecucao,VLPrevistoAnual,DSArquivoAnexo,DSStatus FROM TB_Parceria WHERE IDUnidade = " + _IdUnidade, objConn);
                     SqlDataReader dr = cmd.ExecuteReader();
 
                     while (dr.Read())
@@ -305,6 +306,7 @@ namespace LFC.GesDoc.DAL
                                     InicioVigencia = Convert.ToDateTime(dr["DTInicioVigencia"]),
                                     FimVigencia = Convert.ToDateTime(dr["DTFimVigencia"]),
                                     EmExecucao = Convert.ToBoolean(dr["BTEmExecucao"]),
+                                    ValorPrevistoAnual = Convert.ToDecimal(dr["VLPrevistoAnual"]),
                                     ArquivoAnexo = dr["DSArquivoAnexo"].ToString(),
                                     Status = dr["DSStatus"].ToString()
                                 }
