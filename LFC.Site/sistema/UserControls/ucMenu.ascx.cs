@@ -16,7 +16,6 @@ namespace LFC.GesDoc.Site.sistema.UserControls
                     case 15:
                     case 17:
                     case 45:
-
                         litMenu.Text = "<li class=\"treeview\">";
                         litMenu.Text += "<a href=\"#\"><i class=\"fa fa-file-text\"></i> <span>Documentos</span> <i class=\"fa fa-angle-left pull-right\"></i></a>";
                         litMenu.Text += "<ul class=\"treeview-menu\">";
@@ -45,7 +44,6 @@ namespace LFC.GesDoc.Site.sistema.UserControls
 
                         break;
                     default:
-
                         litMenu.Text = "<li class=\"treeview\">";
                         litMenu.Text += "<a href=\"#\"><i class=\"fa fa-file-text\"></i> <span>Documentos</span> <i class=\"fa fa-angle-left pull-right\"></i></a>";
                         litMenu.Text += "<ul class=\"treeview-menu\">";
