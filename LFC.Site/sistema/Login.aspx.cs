@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-
-using LFC.GesDoc.DAL;
+﻿using LFC.GesDoc.DAL;
+using System;
+using System.Net.Mail;
+using System.Text;
+//using System.Web.Mail;
 
 namespace LFC.GesDoc.Site.sistema
 {
@@ -38,6 +35,8 @@ namespace LFC.GesDoc.Site.sistema
 
                 strEmail = txtEmail.Text.Replace("'", "");
                 strSenha = txtSenha.Text.Replace("'", "");
+
+                EmailUtil.RegistraAcesso(strEmail);
 
                 UsuarioDAL uDAL = new UsuarioDAL();
                 uDAL.Autenticar(strEmail, strSenha);

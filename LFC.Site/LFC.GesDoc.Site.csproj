@@ -740,6 +740,13 @@
     <Compile Include="sistema\ServerSideProcessing\DocumentosArquivados.aspx.designer.cs">
       <DependentUpon>DocumentosArquivados.aspx</DependentUpon>
     </Compile>
+    <Compile Include="sistema\Teste.aspx.cs">
+      <DependentUpon>Teste.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\Teste.aspx.designer.cs">
+      <DependentUpon>Teste.aspx</DependentUpon>
+    </Compile>
     <Compile Include="sistema\Unidades\ListarUnidades.aspx.cs">
       <DependentUpon>ListarUnidades.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -775,6 +782,7 @@
     <Compile Include="sistema\Usuarios\VisualizarPerfil.aspx.designer.cs">
       <DependentUpon>VisualizarPerfil.aspx</DependentUpon>
     </Compile>
+    <Compile Include="sistema\Utils\EmailUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="gestor\bootstrap\css\bootstrap.css.map" />
@@ -969,6 +977,7 @@
     <Content Include="sistema\plugins\priceformat\jquery.price_format.2.0.min.js" />
     <Content Include="sistema\ServerSideProcessing\Documentos.aspx" />
     <Content Include="sistema\ServerSideProcessing\DocumentosArquivados.aspx" />
+    <Content Include="sistema\Teste.aspx" />
     <Content Include="sistema\Unidades\ListarUnidades.aspx" />
     <Content Include="sistema\UserControls\ucBoxDadosUsuario.ascx" />
     <Content Include="sistema\UserControls\ucMenu.ascx" />
